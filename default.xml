@@ -141,7 +141,6 @@
   <project path="device/samsung/klteusc" name="android_device_samsung_klteusc" />
   <project path="device/samsung/kltevzw" name="device_samsung_kltevzw" remote="vanir" />
   <project path="device/samsung/kona-common" name="device_samsung_kona-common" remote="vanir" />
-  <project path="device/samsung/maguro" name="Ziyann/android_device_samsung_maguro" remote="github" groups="tuna" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" groups="device" />
   <project path="device/samsung/mondrianwifi" name="device_samsung_mondrianwifi" remote="vanir" groups="mondrianwifi" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" />
@@ -154,12 +153,9 @@
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" groups="device" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" groups="tuna" />
-  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" groups="tuna" />
   <project path="device/samsung/trlte-common" name="android_device_samsung_trlte-common" />
   <project path="device/samsung/trltespr" name="android_device_samsung_trltespr" />
   <project path="device/samsung/trltetmo" name="android_device_samsung_trltetmo" />
-  <project path="device/samsung/tuna" name="Ziyann/android_device_samsung_tuna" remote="github" groups="tuna" />
   <project path="device/samsung/u8500-common" name="Team-Exhibit/android_device_samsung_u8500-common" remote="github" revision="kk44" groups="ste" />
   <project path="device/sony/amami" name="android_device_sony_amami" />
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" />
