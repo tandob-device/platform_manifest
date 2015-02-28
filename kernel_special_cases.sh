@@ -49,11 +49,6 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_google_msm"
     ;;
-    flounder)
-        export remote="github"
-        export remoterevision="L5"
-        export kernelsource="AlmightyMegadeth00/kernel_tegra"
-    ;;
     jf*)
         export remote="vanir"
         export remoterevision="L5"
