@@ -126,7 +126,6 @@
   <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" groups="GS3_device" />
   <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" groups="GS3_device" />
-  <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" groups="ste" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="vanir" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" />
@@ -156,7 +155,6 @@
   <project path="device/samsung/trlte-common" name="android_device_samsung_trlte-common" />
   <project path="device/samsung/trltespr" name="android_device_samsung_trltespr" />
   <project path="device/samsung/trltetmo" name="android_device_samsung_trltetmo" />
-  <project path="device/samsung/u8500-common" name="Team-Exhibit/android_device_samsung_u8500-common" remote="github" revision="kk44" groups="ste" />
   <project path="device/sony/amami" name="android_device_sony_amami" />
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" />
   <project path="device/sony/common" name="android_device_sony_common" />

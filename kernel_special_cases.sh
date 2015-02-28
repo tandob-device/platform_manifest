@@ -54,11 +54,6 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_tegra"
     ;;
-    janice)
-        export remote="github"
-        export remoterevision="kk44"
-        export kernelsource="Team-Exhibit/android_kernel_samsung_u8500"
-    ;;
     jf*)
         export remote="vanir"
         export remoterevision="L5"
