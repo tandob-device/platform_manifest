@@ -23,8 +23,6 @@
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
           fetch="http://android.git.linaro.org/git-ro/" />
-  <remote name="horn3t"
-          fetch="https://github.com/horn3t/" />
   <remote name="samba"
           fetch="git://git.samba.org/" />
   <default revision="cm-12.0"
@@ -93,6 +91,7 @@
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
+  <project path="device/motorola/falcon" name="percy-g2/android_device_motorola_condor" remote="github" revision="cm-12.0" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" />
