@@ -28,11 +28,6 @@ case $1 in
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
-    dlx)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_htc_dlx"
-    ;;
     falcon)
         export remote="vanir"
         export remoterevision="L5"
