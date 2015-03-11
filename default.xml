@@ -4,14 +4,14 @@
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
           review="gerrit.vanir.co:8080"
-          revision="L51-staging" />
+          revision="L5" />
   <remote name="commotio"
           fetch="https://github.com/DHOMD/"
           review="gerrit.vanir.co:8080" />
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-5.1.0_r1" />
+          revision="refs/tags/android-5.0.2_r1" />
   <remote name="bitbucket"
           fetch="https://bitbucket.org/" />
   <remote name="cm"
@@ -42,9 +42,9 @@
   <project path="bootable/recovery-aosp" name="bootable_recovery-aosp" groups="pdk" remote="vanir" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" />
   <project path="ccache" name="ccache.git" remote="samba" revision="master" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" />
+  <project path="cts" name="android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="dalvik" remote="vanir" />
-  <project path="development" name="platform/development" remote="aosp" />
+  <project path="development" name="android_development" />
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" />
@@ -201,11 +201,10 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" remote="aosp" />
+  <project path="external/chromium_org" name="android_external_chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" />
-  <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" remote="aosp" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" remote="aosp" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" />
@@ -221,6 +220,7 @@
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" />
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" />
+  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" remote="aosp" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
@@ -355,7 +355,6 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/llvm" name="external_llvm" remote="vanir" groups="pdk" />
-  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" />
   <project path="external/lsof" name="external_lsof" remote="vanir" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lzma" name="platform/external/lzma"  groups="aospL5" remote="aosp" />
@@ -385,7 +384,6 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fw" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openssh" name="android_external_openssh" />
   <project path="external/openssl" name="external_openssl" remote="vanir" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" />
@@ -485,6 +483,7 @@
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/rs" name="frameworks_rs" remote="vanir" />
   <project path="frameworks/support" name="frameworks_support" remote="vanir" />
+  <project path="frameworks/testing" name="android_frameworks_testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
   <project path="frameworks/webview" name="frameworks_webview" remote="vanir" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" />
@@ -559,7 +558,6 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
-  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" remote="aosp" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="vanir" />
