@@ -42,9 +42,9 @@
   <project path="bootable/recovery-aosp" name="bootable_recovery-aosp" groups="pdk" remote="vanir" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" />
   <project path="ccache" name="ccache.git" remote="samba" revision="master" />
-  <project path="cts" name="android_cts" groups="cts,pdk-cw-fs" remote="aosp" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" />
   <project path="dalvik" name="dalvik" remote="vanir" />
-  <project path="development" name="development" remote="aosp" />
+  <project path="development" name="platform/development" remote="aosp" />
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" />
