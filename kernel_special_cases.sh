@@ -33,11 +33,6 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="kernel_htc_dlx"
     ;;
-    falcon)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_motorola_msm8226"
-    ;;
     find5|n1)
         export remote="vanir"
         export remoterevision="L5"
