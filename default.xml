@@ -529,7 +529,7 @@
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="hardware_ril" remote="vanir" groups="pdk" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" revision="cm-12.0-caf" groups="pdk"/>
+  <project path="hardware/ril-caf" name="android_hardware_ril" revision="cm-12.1-caf" groups="pdk"/>
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" />
   <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" revision="cm-12.0" />
