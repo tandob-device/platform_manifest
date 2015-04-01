@@ -3,7 +3,7 @@
 
 ## all non-specified kernels are assumed to be from CyanogenMod
 export remote="cm"
-export remoterevision="staging/cm-12.1"
+export remoterevision="cm-12.1"
 
 case $1 in
     bacon|find7*)
@@ -70,7 +70,7 @@ case $1 in
     ;;
     shamu)
         export remote="vanir"
-        export remoterevision="L51-staging"
+        export remoterevision="L51"
         export kernelsource="kernel_moto_shamu"
     ;;
     skomer)
