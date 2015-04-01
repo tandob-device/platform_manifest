@@ -73,11 +73,6 @@ case $1 in
         export remoterevision="L51"
         export kernelsource="kernel_moto_shamu"
     ;;
-    skomer)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_samsung_skomer"
-    ;;
     taoshan)
         export remote="github"
         export remoterevision="android-5.0"
