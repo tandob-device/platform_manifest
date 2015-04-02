@@ -159,7 +159,7 @@
   <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/huashan" name="android_device_sony_huashan" revision="cm-12.0" />
   <project path="device/sony/mint" name="android_device_sony_mint" revision="cm-12.0" />
-  <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" />
+  <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" revision="cm-12.0" />
   <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" />
   <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" />
