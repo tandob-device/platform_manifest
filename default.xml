@@ -59,9 +59,9 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" />
-  <project path="device/htc/evita" name="android_device_htc_evita" revision="cm-12.0" />
+  <project path="device/htc/evita" name="android_device_htc_evita" />
   <project path="device/htc/flounder" name="device_htc_flounder" remote="vanir"/>
-  <project path="device/htc/jewel" name="android_device_htc_jewel" revision="cm-12.0" />
+  <project path="device/htc/jewel" name="android_device_htc_jewel" />
   <project path="device/htc/m4" name="device_htc_m4" remote="vanir" />
   <project path="device/htc/m7" name="device_htc_m7" remote="vanir" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" />
@@ -70,30 +70,30 @@
   <project path="device/htc/m8" name="device_htc_m8" remote="vanir" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" />
-  <project path="device/htc/ville" name="android_device_htc_ville" revision="cm-12.0" />
+  <project path="device/htc/ville" name="android_device_htc_ville" />
   <project path="device/lge/d800" name="device_lge_d800" remote="vanir" />
   <project path="device/lge/d801" name="device_lge_d801" remote="vanir" />
   <project path="device/lge/d802" name="device_lge_d802" remote="vanir" />
   <project path="device/lge/d803" name="device_lge_d803" remote="vanir" />
-  <project path="device/lge/d850" name="android_device_lge_d850" revision="cm-12.0" />
-  <project path="device/lge/d851" name="android_device_lge_d851" revision="cm-12.0" />
-  <project path="device/lge/d855" name="android_device_lge_d855" revision="cm-12.0" />
+  <project path="device/lge/d850" name="android_device_lge_d850" />
+  <project path="device/lge/d851" name="android_device_lge_d851" />
+  <project path="device/lge/d855" name="android_device_lge_d855" />
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" />
   <project path="device/lge/g3-common" name="device_lge_g3-common" remote="vanir" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" />
-  <project path="device/lge/ls990" name="android_device_lge_ls990" revision="cm-12.0" />
+  <project path="device/lge/ls990" name="android_device_lge_ls990" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" />
   <project path="device/lge/p880" name="device_lge_p880" remote="vanir" />
-  <project path="device/lge/v500" name="android_device_lge_v500" revision="cm-12.0" />
+  <project path="device/lge/v500" name="android_device_lge_v500" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
   <project path="device/motorola/condor" name="percy-g2/android_device_motorola_condor" remote="github" revision="cm-12.0" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" />
-  <project path="device/motorola/maserati" name="android_device_motorola_maserati" revision="cm-12.0" />
+  <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" />
   <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" device="msm8960_jbbl" />
   <project path="device/motorola/msm8226-common" name="motorola_msm8226-common" remote="vanir" />
@@ -129,7 +129,7 @@
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" />
   <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" />
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" />
-  <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx"  />
+  <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" />
   <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" />
   <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" />
   <project path="device/samsung/kltedv" name="android_device_samsung_kltedv" />
@@ -152,25 +152,25 @@
   <project path="device/samsung/trlte-common" name="android_device_samsung_trlte-common" revision="cm-12.0" />
   <project path="device/samsung/trltespr" name="android_device_samsung_trltespr" revision="cm-12.0" />
   <project path="device/samsung/trltetmo" name="android_device_samsung_trltetmo" revision="cm-12.0" />
-  <project path="device/sony/amami" name="android_device_sony_amami" revision="cm-12.0"/>
+  <project path="device/sony/amami" name="android_device_sony_amami" />
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" revision="cm-12.0" />
-  <project path="device/sony/common" name="android_device_sony_common" revision="cm-12.0" />
+  <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" groups="device" />
-  <project path="device/sony/honami" name="android_device_sony_honami" revision="cm-12.0" />
+  <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/huashan" name="android_device_sony_huashan" revision="cm-12.0" />
   <project path="device/sony/mint" name="android_device_sony_mint" revision="cm-12.0" />
-  <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" revision="cm-12.0" />
-  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" revision="cm-12.0" />
+  <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" />
+  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" />
   <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" revision="cm-12.0" />
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" revision="cm-12.0" />
   <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="vanir" />
   <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" revision="cm-12.0" />
-  <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" revision="cm-12.0" />
-  <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" revision="cm-12.0" />
-  <project path="device/sony/taoshan" name="android_device_sony_taoshan" revision="cm-12.0" />
-  <project path="device/sony/togari" name="android_device_sony_togari" revision="cm-12.0" />
+  <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
+  <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" />
+  <project path="device/sony/taoshan" name="android_device_sony_taoshan" />
+  <project path="device/sony/togari" name="android_device_sony_togari" />
   <project path="device/sony/tsubasa" name="android_device_sony_tsubasa" revision="cm-12.0" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" />
@@ -512,7 +512,7 @@
   <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L51-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L51-caf-8974" />
-  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" revision="cm-12.0" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L5-caf-8084" />
@@ -533,7 +533,7 @@
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" />
   <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" revision="cm-12.0" />
-  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" revision="cm-12.0" />
+  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
