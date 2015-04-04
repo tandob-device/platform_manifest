@@ -116,7 +116,7 @@
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
-  <project path="device/samsung/hlte" name="android_device_samsung_hlte" groups="hlte_device" />
+  <project path="device/samsung/hlte" name="android_device_samsung_hlte" groups="hlte_device" revision="cm-12.0" />
   <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
   <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" groups="hlte_device" />
@@ -150,7 +150,7 @@
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" groups="device" />
   <project path="device/samsung/trlte-common" name="android_device_samsung_trlte-common" />
-  <project path="device/samsung/trltespr" name="android_device_samsung_trltespr" />
+  <project path="device/samsung/trltespr" name="android_device_samsung_trltespr" revision="cm-12.0" />
   <project path="device/samsung/trltetmo" name="android_device_samsung_trltetmo" />
   <project path="device/sony/amami" name="android_device_sony_amami" />
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" />
