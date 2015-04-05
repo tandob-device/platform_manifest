@@ -29,9 +29,9 @@ case $1 in
         export kernelsource="lge-kernel-gproj"
     ;;
     falcon)
-        export remote="vanir"
-        export remoterevision="L51"
-        export kernelsource="kernel_motorola_msm8226"
+        export remote="github"
+        export remoterevision="lollipop"
+        export kernelsource="cannondalev2000/kernel_motorola_msm8226"
     ;;
     find5|n1)
         export remote="vanir"
