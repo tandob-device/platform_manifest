@@ -3,6 +3,9 @@ Team Vanir's repo
 
 This branch is for Vanir's L5 branch, our android-5.0.0 based ROM
 
+Additional dependencies:
+  automake autoconf optipng lzop
+
 
 Getting Started
 ---------------
