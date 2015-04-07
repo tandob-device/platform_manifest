@@ -3,6 +3,9 @@ Team Vanir's repo
 
 This branch is for Vanir's L51 branch, our android-5.1.0 based ROM
 
+Additional dependencies:
+  automake autoconf optipng lzop
+
 
 Getting Started
 ---------------
