@@ -582,7 +582,7 @@
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" revision="cm-12.1" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" />
- <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" />
+  <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" revision="cm-12.1" groups="pdk-cw-fs" />
