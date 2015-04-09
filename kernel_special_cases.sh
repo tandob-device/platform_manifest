@@ -11,10 +11,6 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_oneplus_msm8974"
     ;;
-    condor)
-        export remote="github"
-        export kernelsource="percy-g2/android_kernel_motorola_msm8610"
-    ;;
     d80*|ls980|vs980)
         export remote="vanir"
         export remoterevision="L51"
