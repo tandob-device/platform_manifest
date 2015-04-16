@@ -69,6 +69,11 @@ case $1 in
         export remoterevision="L51"
         export kernelsource="kernel_moto_shamu"
     ;;
+    shieldtablet)
+        export remote="github"
+        export remoterevision="12.0"
+        export kernelsource="ShieldTabDev/android_kernel_nvidia_shieldtablet"
+    ;;
     taoshan)
         export remote="github"
         export remoterevision="android-5.0"
