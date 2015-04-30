@@ -29,9 +29,9 @@ case $1 in
         export kernelsource="lge-kernel-gproj"
     ;;
     dlx)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_htc_dlx"
+        export remote="cm"
+        export remoterevision="cm-12.0"
+        export kernelsource="android_kernel_htc_m7"
     ;;
     m7*)
         export remote="vanir"
