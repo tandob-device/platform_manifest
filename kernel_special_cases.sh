@@ -34,9 +34,9 @@ case $1 in
         export kernelsource="kernel_htc_dlx"
     ;;
     m7*)
-        export remote="github"
-        export remoterevision="lollipop"
-        export kernelsource="cannondalev2000/kernel_htc_m7"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_htc_m7"
     ;;
     find5|n1)
         export remote="vanir"
