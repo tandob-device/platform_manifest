@@ -39,6 +39,10 @@ case $1 in
         export remoterevision="L51"
         export kernelsource="kernel_lge_hammerhead"
     ;;
+    huashan|mint|tsubasa)
+        export remote="github"
+        export kernelsource="AndroidNoob69/android_kernel_sony_msm8x60"
+    ;;
     flo|deb|mako)
         export remote="github"
         export remoterevision="L5"
