@@ -61,7 +61,7 @@ case $1 in
     ;;
     p880)
         export remote="cm"
-        export remoterevision="cm-12.0"
+        export remoterevision="cm-12.1"
         export kernelsource="lge-kernel-p880"
     ;;
     shamu)
