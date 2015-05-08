@@ -545,7 +545,7 @@
   <project path="hardware/ril-caf" name="android_hardware_ril" revision="cm-12.1-caf" groups="pdk"/>
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" />
-  <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" revision="cm-12.0" />
+  <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" revision="cm-12.1" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" />
