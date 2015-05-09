@@ -349,7 +349,8 @@
   <project path="external/libxml2" name="android_external_libxml2" groups="pdk-cw-fs" />
   <project path="external/libxslt" name="android_external_libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" remote="aosp" />
-  <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="vanir" />
+  <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" groups="pdk-cw-fs" />
+  <project path="external/libtruezip" name="android_external_libtruezip" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/llvm" name="platform/external/llvm" remote="aosp" groups="pdk" />
@@ -357,7 +358,7 @@
   <project path="external/lsof" name="external_lsof" remote="vanir" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lz4" name="android_external_lz4" />
-  <project path="external/lzma" name="platform/external/lzma"  groups="aospL5" remote="aosp" />
+  <project path="external/lzma" name="platform/external/lzma" remote="aosp" />
   <project path="external/lzo" name="android_external_lzo" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" />
@@ -434,18 +435,22 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
+  <project path="external/unrar" name="android_external_unrar" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vim" name="android_external_vim" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
   <project path="external/webp" name="external_webp" remote="vanir" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" />
+  <project path="external/whispersystems/curve25519" name="android_external_whispersystems_curve25519-java" />
+  <project path="external/whispersystems/libtextsecure" name="android_external_whispersystems_libtextsecure-java" />
+  <project path="external/whispersystems/libaxolotl" name="android_external_whispersystems_libaxolotl-android" />
   <project path="external/whispersystems/WhisperPush" name="android_external_whispersystems_WhisperPush" /> 
   <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="vanir" groups="pdk" />
-  <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" remote="aosp" />
+  <project path="external/zip" name="android_external_zip" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
@@ -693,11 +698,17 @@
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="vanir" />
   <project path="system/security" name="system_security" remote="vanir" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="vanir" groups="pdk" />
-  <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
+  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" />
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" remote="aosp" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" /> 
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools"  remote="aosp" />
+  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools"  remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" groups="vendor" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" />
   <project path="vendor/commotio" name="commotio" remote="commotio" revision="51" groups="vendor" />
