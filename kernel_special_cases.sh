@@ -86,7 +86,4 @@ case $1 in
     tf700|tf700t)
         export remoterevision="cm-12.0"
     ;;
-    tomato)
-	export kernelsource="android_kernel_cyanogen_msm8916"
-    ;;
 esac
