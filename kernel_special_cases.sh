@@ -83,7 +83,7 @@ case $1 in
         export remoterevision="android-5.0"
         export kernelsource="omnirom/android_kernel_sony_msm8930"
     ;;
-    tf700|tf700t|tomato)
+    tf700|tf700t)
         export remoterevision="cm-12.0"
     ;;
 esac
