@@ -103,7 +103,7 @@
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" />
-  <project path="device/oppo/find5" name="device_oppo_find5" device="find5"remote="vanir" />
+  <project path="device/oppo/find5" name="device_oppo_find5" device="find5" remote="vanir" />
   <project path="device/oppo/find7" name="android_device_oppo_find7" device="find7" />
   <project path="device/oppo/find7-common" name="android_device_oppo_find7-common" device="find7" />
   <project path="device/oppo/find7s" name="android_device_oppo_find7s" device="find7" />
