@@ -6,11 +6,6 @@ export remote="cm"
 export remoterevision="cm-12.1"
 
 case $1 in
-    bacon|find7*)
-        export remote="github"
-        export remoterevision="L5"
-        export kernelsource="AlmightyMegadeth00/kernel_oneplus_msm8974"
-    ;;
     d80*|ls980|vs980)
         export remote="vanir"
         export remoterevision="L51"
@@ -42,11 +37,6 @@ case $1 in
     huashan|mint|tsubasa)
         export remote="github"
         export kernelsource="AndroidNoob69/android_kernel_sony_msm8x60"
-    ;;
-    flo|deb|mako)
-        export remote="github"
-        export remoterevision="L5"
-        export kernelsource="AlmightyMegadeth00/kernel_google_msm"
     ;;
     jf*)
         export remote="vanir"
