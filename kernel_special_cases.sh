@@ -21,7 +21,7 @@ case $1 in
     ;;
     falcon)
         export remote="github"
-        export remoterevision="lollipop"
+        export remoterevision="5.1"
         export kernelsource="cannondalev2000/kernel_motorola_msm8226"
     ;;
     find5|n1)
