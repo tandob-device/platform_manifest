@@ -19,11 +19,6 @@ case $1 in
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
-    falcon)
-        export remote="github"
-        export remoterevision="5.1"
-        export kernelsource="cannondalev2000/kernel_motorola_msm8226"
-    ;;
     find5|n1)
         export remote="vanir"
         export remoterevision="L51"
