@@ -171,6 +171,7 @@
   <project path="device/sony/togari" name="android_device_sony_togari" />
   <project path="device/sony/tsubasa" name="android_device_sony_tsubasa" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
+  <project path="device/yu/lettuce" name="Megatron007/android_device_yu_lettuce" remote="github" revision="L51" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
