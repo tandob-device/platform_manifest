@@ -24,6 +24,11 @@ case $1 in
         export remoterevision="L51"
         export kernelsource="kernel_oppo_n1"
     ;;
+    golden)
+        export remote="github"
+        export remoterevision="lp5.1"
+        export kernelsource="andi34/android_kernel_samsung_golden"
+    ;;
     hammerhead)
         export remote="vanir"
         export remoterevision="L51"
