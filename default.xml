@@ -179,6 +179,7 @@
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/android-mock" name="android_external_android-mock" revision="cm-12.1" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" />
+  <project path="external/android/support-prebuilt" name="external_android_support-prebuilt" revision="master" />
   <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" />
