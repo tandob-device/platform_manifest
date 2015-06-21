@@ -6,7 +6,7 @@ export remote="cm"
 export remoterevision="cm-12.1"
 
 case $1 in
-    d80*|ls980|vs980)
+    d80*|f320|ls980|vs980)
         export remote="vanir"
         export remoterevision="L51"
         export kernelsource="kernel_lge_msm8974"
