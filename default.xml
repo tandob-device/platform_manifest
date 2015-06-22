@@ -78,6 +78,7 @@
   <project path="device/lge/d802" name="device_lge_d802" remote="vanir" />
   <project path="device/lge/d850" name="android_device_lge_d850" />
   <project path="device/lge/d851" name="android_device_lge_d851" />
+  <project path="device/lge/d852" name="android_device_lge_d852" />
   <project path="device/lge/d855" name="android_device_lge_d855" />
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" />
   <project path="device/lge/f320" name="device_lge_f320" remote="vanir" />
