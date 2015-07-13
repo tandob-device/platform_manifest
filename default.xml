@@ -526,6 +526,7 @@
   <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L51-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L51-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L51-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L51-caf-8994" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" />
@@ -535,6 +536,7 @@
   <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L51-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L51-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L51-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L51-caf-8994" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
@@ -544,6 +546,7 @@
   <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L51-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L51-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L51-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L51-caf-8994" />
   <project path="hardware/qcom/media/default" name="hardware_qcom_media" groups="qcom" remote="vanir" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
