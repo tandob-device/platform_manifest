@@ -26,8 +26,8 @@ case $1 in
     ;;
     golden)
         export remote="github"
-        export remoterevision="lp5.1"
-        export kernelsource="andi34/android_kernel_samsung_golden"
+        export remoterevision="cm-12.1"
+        export kernelsource="NovaFusion/android_kernel_samsung_golden"
     ;;
     hammerhead)
         export remote="vanir"
