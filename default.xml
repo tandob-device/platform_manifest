@@ -82,6 +82,7 @@
   <project path="device/lge/d855" name="android_device_lge_d855" />
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" />
   <project path="device/lge/f320" name="device_lge_f320" remote="vanir" />
+  <project path="device/lge/f400k" name="device_lge_f400" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" />
   <project path="device/lge/g3-common" name="device_lge_g3-common" remote="vanir" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" />
