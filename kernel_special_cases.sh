@@ -55,9 +55,9 @@ case $1 in
         export kernelsource="lge-kernel-p880"
     ;;
     shamu)
-        export remote="github"
-        export remoterevision="CFS"
-        export kernelsource="despair/N6"
+        export remote="vanir"
+        export remoterevision="L51"
+        export kernelsource="kernel_moto_shamu"
     ;;
     shieldtablet)
         export remote="github"
