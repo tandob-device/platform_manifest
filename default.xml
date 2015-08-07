@@ -393,6 +393,7 @@
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openssh" name="android_external_openssh" />
   <project path="external/openssl" name="external_openssl" remote="vanir" groups="pdk" />
+  <project path="external/openvpn" name="external_openvpn" remote="vanir" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" />
   <project path="external/pciutils" name="android_external_pciutils" />
