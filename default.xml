@@ -501,7 +501,7 @@
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" revision="cm-12.1" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" revision="cm-12.1" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="vanir" />
   <project path="hardware/cm" name="hardware_cm" remote="vanir" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
@@ -630,7 +630,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" />
-  <project path="packages/services/Mms" name="android_packages_services_Mms" />
+  <project path="packages/services/Mms" name="packages_services_Mms" remote="vanir" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vanir" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="aospL5" remote="vanir" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" />
