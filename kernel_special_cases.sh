@@ -31,7 +31,7 @@ case $1 in
     ;;
     golden)
         export remote="github"
-        export remoterevision="base"
+        export remoterevision="F_kernel"
         export kernelsource="Fred6681/android_kernel_samsung_golden"
     ;;
     hammerhead)
