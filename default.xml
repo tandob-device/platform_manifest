@@ -265,7 +265,7 @@
   <project path="external/exfat" name="android_external_exfat" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fw" remote="aosp" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" revision="cm-12.1" groups="pdk" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="vanir" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" />
   <project path="external/fio" name="platform/external/fio" remote="aosp" />
