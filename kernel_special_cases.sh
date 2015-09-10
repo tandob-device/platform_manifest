@@ -30,9 +30,9 @@ case $1 in
         export kernelsource="kernel_oppo_n1"
     ;;
     golden)
-        export remote="github"
-        export remoterevision="F_kernel"
-        export kernelsource="Fred6681/android_kernel_samsung_golden"
+        export remote="vanir"
+        export remoterevision="L51"
+        export kernelsource="kernel_samsung_golden"
     ;;
     hammerhead)
         export remote="vanir"
