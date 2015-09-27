@@ -54,6 +54,11 @@ case $1 in
         export remoterevision="L51"
         export kernelsource="kernel_htc_msm8974"
     ;;
+    oneplus2)
+        export remote="github"
+        export remoterevision="EXODUS-5.1"
+        export kernelsource="TeamExodus/kernel_oneplus_msm8994"
+    ;;
     p880)
         export remote="cm"
         export remoterevision="cm-12.1"
