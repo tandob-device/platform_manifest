@@ -12,15 +12,11 @@
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/"
           revision="refs/tags/android-5.1.1_r18" />
-  <remote name="bitbucket"
-          fetch="https://bitbucket.org/" />
   <remote name="cm"
           fetch="https://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="https://github.com/" />
-  <remote name="omni"
-          fetch="https://github.com/omnirom/" />
   <remote name="linaro"
           fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="samba"
