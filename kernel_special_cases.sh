@@ -56,8 +56,7 @@ case $1 in
     ;;
     oneplus2)
         export remote="github"
-        export remoterevision="EXODUS-5.1"
-        export kernelsource="TeamExodus/kernel_oneplus_msm8994"
+        export kernelsource="Grarak/kernel_oneplus_msm8994"
     ;;
     p880)
         export remote="cm"
