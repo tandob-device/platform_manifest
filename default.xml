@@ -103,7 +103,7 @@
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" />
   <project path="device/motorola/victara" name="android_device_motorola_victara" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" />
-  <project path="device/oneplus/oneplus2" name="Grarak/device_oneplus_oneplus2" device="oneplus2" remote="github" />
+  <project path="device/oneplus/oneplus2" name="Grarak/android_device_oneplus_oneplus2" device="oneplus2" remote="github" />
   <project path="device/oppo/apq8064-common" name="device_oppo_apq8064-common" remote="vanir" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" />
   <project path="device/oppo/find5" name="device_oppo_find5" device="find5" remote="vanir" />
