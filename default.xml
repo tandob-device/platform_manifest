@@ -41,6 +41,8 @@
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="development" name="platform/development" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
+  
+<!--  Trouble Ahead 
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" />
   <project path="device/asus/fugu" name="android_device_asus_fugu" />
@@ -174,6 +176,9 @@
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="device/yu/lettuce" name="android_device_yu_lettuce" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
+  
+Trouble Behind --> 
+
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />  
