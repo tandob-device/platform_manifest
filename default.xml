@@ -193,7 +193,7 @@
   <project path="external/bash" name="external_bash" remote="vanir" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk"remote="aosp"  />
+  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/busybox" name="external_busybox" remote="vanir" />
