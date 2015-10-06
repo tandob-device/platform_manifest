@@ -121,7 +121,7 @@
   <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="vanir" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
   <project path="device/samsung/golden" name="device_samsung_golden" remote="vanir" />
-  <project path="device/samsung/hlte" name="android_device_samsung_hlte" groups="hlte_device" revision="cm-12.0" />
+  <project path="device/samsung/hlte" name="android_device_samsung_hlte" groups="hlte_device" />
   <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
   <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" groups="hlte_device" />
@@ -153,7 +153,7 @@
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" groups="device" />
   <project path="device/samsung/trlte-common" name="android_device_samsung_trlte-common" />
-  <project path="device/samsung/trltespr" name="android_device_samsung_trltespr" revision="cm-12.0" />
+  <project path="device/samsung/trltespr" name="android_device_samsung_trltespr" />
   <project path="device/samsung/trltetmo" name="android_device_samsung_trltetmo" />
   <project path="device/sony/amami" name="android_device_sony_amami" />
   <project path="device/sony/common" name="android_device_sony_common" />
@@ -240,7 +240,7 @@
   <project path="external/fio" name="platform/external/fio" remote="aosp" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" remote="aosp" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" revision="refs/tags/android-m-preview-1" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk-cw-fs" />
   <project path="external/fuse" name="android_external_fuse" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
@@ -556,7 +556,7 @@
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="vanir" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="vanir" />
-  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" revision="cm-12.1" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" />
