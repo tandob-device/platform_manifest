@@ -45,9 +45,9 @@ case $1 in
         export kernelsource="kernel_samsung_jf"
     ;;
     klte*)
-        export remote="vanir"
-        export remoterevision="L51"
-        export kernelsource="kernel_samsung_klte"
+        export remote="github"
+        export remoterevision="boeffla_cm12.1"
+        export kernelsource="andip71/boeffla-kernel-cm-s5"
     ;;
     m8)
         export remote="vanir"

@@ -1,7 +1,7 @@
 Team Vanir's repo
 ===========
 
-This branch is for Vanir's L51 branch, our android-5.1.0 based ROM
+This branch is for Vanir's M6 branch, our android-6.0.0 based ROM
 
 Additional dependencies:
   automake autoconf optipng lzop
@@ -14,11 +14,11 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b L51
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b m6
 
 Mac Users: initialize your local repository using:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b L51 -g darwin
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b m6 -g darwin
 
 Then to sync up:
 
