@@ -76,7 +76,15 @@
 <!-- Github -->
 
 <!-- Devices -->
-<!--  Trouble Ahead 
+
+<!-- Playground -->
+  <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" groups="device" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
+  <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" />
+  <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" groups="device" />
+
+<!--  Trouble Ahead
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" />
   <project path="device/asus/fugu" name="android_device_asus_fugu" />
@@ -141,7 +149,6 @@
   <project path="device/oppo/find7s" name="android_device_oppo_find7s" device="find7" />
   <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" device="BACON" />
   <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="vanir" groups="GS3_device" />
@@ -159,8 +166,6 @@
   <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" />
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" />
   <project path="device/samsung/jfltexx" name="device_samsung_jfltexx" remote="vanir" />
-  <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" />
-  <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" />
   <project path="device/samsung/kltedv" name="android_device_samsung_kltedv" />
   <project path="device/samsung/kltespr" name="android_device_samsung_kltespr" />
   <project path="device/samsung/klteusc" name="android_device_samsung_klteusc" />
@@ -170,11 +175,9 @@
   <project path="device/samsung/mondrianwifi" name="device_samsung_mondrianwifi" remote="vanir" groups="mondrianwifi" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" groups="device" />
-  <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" groups="device" />
   <project path="device/samsung/n5100" name="android_device_samsung_n5100" />
   <project path="device/samsung/n5110" name="android_device_samsung_n5110" />
   <project path="device/samsung/n5120" name="android_device_samsung_n5120" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" groups="device" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" groups="device" />
@@ -201,7 +204,7 @@
   <project path="device/yu/lettuce" name="android_device_yu_lettuce" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
 
-Trouble Behind --> 
+Trouble Behind -->
 
 <!-- CM -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
