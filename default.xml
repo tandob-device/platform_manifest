@@ -229,6 +229,10 @@ Trouble Behind -->
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
+<<<<<<< HEAD
+=======
+  <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
+>>>>>>> f9f26b6... cm: Update manifest
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" />
@@ -717,6 +721,7 @@ Trouble Behind -->
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
+<<<<<<< HEAD
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
@@ -730,5 +735,8 @@ Trouble Behind -->
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 <!-- AOSP -->
+=======
+<!-- END AOSP -->
+>>>>>>> f9f26b6... cm: Update manifest
 
 </manifest>
