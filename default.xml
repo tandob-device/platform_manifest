@@ -627,7 +627,6 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="kk44" groups="vendor" />
-  <project path="vendor/cyngn" name="TeamApexQ/android_vendor_bogus" remote="github" />
   <project path="vendor/htc" name="vendor_htc" remote="vanir" revision="kk44" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="kk44" />
   <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="kk44" groups="vendor" />
