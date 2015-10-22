@@ -195,7 +195,6 @@
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
-  <project path="external/efence" name="CyanogenMod/android_external_boundarydevices_efence" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/busybox" name="external_busybox" remote="vanir" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
