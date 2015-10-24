@@ -36,6 +36,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="vanir" />
   <project path="bootable/recovery-aosp" name="bootable_recovery-aosp" groups="pdk" remote="vanir" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" />
   <project path="frameworks/av" name="frameworks_av" remote="vanir" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="vanir" />
@@ -71,32 +72,32 @@
   <project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" remote="github" revision="cm-12.1" />
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-12.1" />
 
-<!-- Samba -->
+<!-- Other Gits -->
   <project path="ccache" name="ccache.git" remote="samba" revision="master" />
 
-<!-- Github -->
+<!-- Device Nexus -->
+  <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
+  <project path="device/asus/flo" name="device_asus_flo" remote="vanir" />
+  <project path="device/asus/fugu" name="android_device_asus_fugu" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" />
+  <project path="device/htc/flounder" name="device_htc_flounder" remote="vanir"/>
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" groups="device" />
 
-<!-- Devices -->
-
-<!-- Playground -->
+<!-- Device Samsung -->
   <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" groups="device" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
   <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" />
   <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" groups="device" />
 
 <!--  Trouble Ahead
-  <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
-  <project path="device/asus/flo" name="device_asus_flo" remote="vanir" />
-  <project path="device/asus/fugu" name="android_device_asus_fugu" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" />
   <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" groups="device" />
   <project path="device/cyanogen/msm8916-common" name="android_device_cyanogen_msm8916-common" />
   <project path="device/cyanogen/msm8939-common" name="android_device_cyanogen_msm8939-common" />
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" />
   <project path="device/htc/evita" name="android_device_htc_evita" />
-  <project path="device/htc/flounder" name="device_htc_flounder" remote="vanir"/>
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
   <project path="device/htc/m4" name="device_htc_m4" remote="vanir" />
   <project path="device/htc/m7" name="device_htc_m7" remote="vanir" />
@@ -124,7 +125,6 @@
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" />
   <project path="device/lge/g3-common" name="device_lge_g3-common" remote="vanir" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" />
   <project path="device/lge/ls990" name="android_device_lge_ls990" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" />
@@ -132,7 +132,6 @@
   <project path="device/lge/v500" name="android_device_lge_v500" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
-  <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
   <project path="device/motorola/condor" name="android_device_motorola_condor" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
@@ -172,7 +171,6 @@
   <project path="device/samsung/klteusc" name="android_device_samsung_klteusc" />
   <project path="device/samsung/kltevzw" name="device_samsung_kltevzw" remote="vanir" />
   <project path="device/samsung/kona-common" name="device_samsung_kona-common" remote="vanir" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" groups="device" />
   <project path="device/samsung/mondrianwifi" name="device_samsung_mondrianwifi" remote="vanir" groups="mondrianwifi" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" groups="device" />
