@@ -128,7 +128,7 @@
   <project path="device/lge/ls990" name="CyanogenMod/android_device_lge_ls990" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" />
   <project path="device/lge/p880" name="device_lge_p880" remote="vanir" />
-  <project path="device/lge/v500" name="CyanogenMod/android_device_lge_v500" />
+  <project path="device/lge/v500" name="CyanogenMod/android_device_lge_v500" revision="cm-12.1" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
@@ -157,7 +157,7 @@
   <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" groups="hlte_device" revision="cm-12.1" />
   <project path="device/samsung/hlte-common" name="CyanogenMod/android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="CyanogenMod/android_device_samsung_hltespr" groups="hlte_device" />
-  <project path="device/samsung/hltetmo" name="CyanogenMod/android_device_samsung_hltetmo" groups="hlte_device" />
+  <project path="device/samsung/hltetmo" name="CyanogenMod/android_device_samsung_hltetmo" groups="hlte_device" revision="cm-12.1" />
   <project path="device/samsung/i605" name="CyanogenMod/android_device_samsung_i605" groups="device" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="vanir" />
   <project path="device/samsung/jflteatt" name="CyanogenMod/android_device_samsung_jflteatt" />
@@ -188,7 +188,7 @@
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" groups="device" />
   <project path="device/sony/honami" name="CyanogenMod/android_device_sony_honami" />
-  <project path="device/sony/msm8960-common" name="CyanogenMod/android_device_sony_msm8960-common" />
+  <project path="device/sony/msm8960-common" name="CyanogenMod/android_device_sony_msm8960-common" revision="cm-12.1" />
   <project path="device/sony/msm8974-common" name="CyanogenMod/android_device_sony_msm8974-common" />
   <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" />
