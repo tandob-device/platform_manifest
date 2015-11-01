@@ -91,8 +91,8 @@
   <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" />
   <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" groups="device" />
-  <project path="device/cyanogen/msm8916-common" name="CyanogenMod/android_device_cyanogen_msm8916-common" />
-  <project path="device/cyanogen/msm8939-common" name="CyanogenMod/android_device_cyanogen_msm8939-common" />
+  <project path="device/cyanogen/msm8916-common" name="CyanogenMod/android_device_cyanogen_msm8916-common" revision="cm-12.1" />
+  <project path="device/cyanogen/msm8939-common" name="CyanogenMod/android_device_cyanogen_msm8939-common" revision="cm-12.1" />
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" />
   <project path="device/htc/evita" name="CyanogenMod/android_device_htc_evita" />
   <project path="device/htc/flounder" name="device_htc_flounder" remote="vanir"/>
@@ -104,7 +104,7 @@
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" />
   <project path="device/htc/m8-common" name="CyanogenMod/android_device_htc_m8-common" />
   <project path="device/htc/m8" name="device_htc_m8" remote="vanir" />
-  <project path="device/htc/m8dug" name="android_device_htc_m8dug" />
+  <project path="device/htc/m8dug" name="CyanogenMod/android_device_htc_m8dug" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" />
   <project path="device/htc/msm8974-common" name="CyanogenMod/android_device_htc_msm8974-common" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" />
@@ -148,13 +148,13 @@
   <project path="device/oppo/find7-common" name="CyanogenMod/android_device_oppo_find7-common" device="find7" />
   <project path="device/oppo/find7s" name="CyanogenMod/android_device_oppo_find7s" device="find7" />
   <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" device="BACON" />
-  <project path="device/oppo/n1" name="CyanogenMod/android_device_oppo_n1" device="oppo_n1" />
+  <project path="device/oppo/n1" name="CyanogenMod/android_device_oppo_n1" device="oppo_n1" revision="cm-12.1" />
   <project path="device/samsung/d2-common" name="CyanogenMod/android_device_samsung_d2-common" groups="GS3_device" />
   <project path="device/samsung/d2att" name="CyanogenMod/android_device_samsung_d2att" groups="GS3_device" />
-  <project path="device/samsung/d2spr" name="CyanogenMod/device_samsung_d2spr" remote="vanir" groups="GS3_device" />
+  <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="vanir" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="CyanogenMod/android_device_samsung_d2vzw" groups="GS3_device" />
   <project path="device/samsung/golden" name="device_samsung_golden" remote="vanir" />
-  <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" groups="hlte_device" />
+  <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" groups="hlte_device" revision="cm-12.1" />
   <project path="device/samsung/hlte-common" name="CyanogenMod/android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="CyanogenMod/android_device_samsung_hltespr" groups="hlte_device" />
   <project path="device/samsung/hltetmo" name="CyanogenMod/android_device_samsung_hltetmo" groups="hlte_device" />
@@ -166,9 +166,9 @@
   <project path="device/samsung/jflteusc" name="CyanogenMod/android_device_samsung_jflteusc" />
   <project path="device/samsung/jfltevzw" name="CyanogenMod/android_device_samsung_jfltevzw" />
   <project path="device/samsung/jfltexx" name="device_samsung_jfltexx" remote="vanir" />
-  <project path="device/samsung/kltedv" name="CyanogenMod/android_device_samsung_kltedv" />
+  <project path="device/samsung/kltedv" name="CyanogenMod/android_device_samsung_kltedv" revision="cm-12.1" />
   <project path="device/samsung/kltespr" name="CyanogenMod/android_device_samsung_kltespr" />
-  <project path="device/samsung/klteusc" name="CyanogenMod/android_device_samsung_klteusc" />
+  <project path="device/samsung/klteusc" name="CyanogenMod/android_device_samsung_klteusc" revision="cm-12.1" />
   <project path="device/samsung/kltevzw" name="device_samsung_kltevzw" remote="vanir" />
   <project path="device/samsung/kona-common" name="device_samsung_kona-common" remote="vanir" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" groups="device" />
@@ -177,13 +177,13 @@
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" groups="device" />
   <project path="device/samsung/n5100" name="CyanogenMod/android_device_samsung_n5100" />
   <project path="device/samsung/n5110" name="CyanogenMod/android_device_samsung_n5110" />
-  <project path="device/samsung/n5120" name="CyanogenMod/android_device_samsung_n5120" />
+  <project path="device/samsung/n5120" name="CyanogenMod/android_device_samsung_n5120" revision="cm-12.1" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" groups="device" />
-  <project path="device/samsung/trlte-common" name="CyanogenMod/android_device_samsung_trlte-common" />
-  <project path="device/samsung/trltespr" name="CyanogenMod/android_device_samsung_trltespr" />
-  <project path="device/samsung/trltetmo" name="CyanogenMod/android_device_samsung_trltetmo" />
+  <project path="device/samsung/trlte-common" name="CyanogenMod/android_device_samsung_trlte-common" revision="cm-12.1" />
+  <project path="device/samsung/trltespr" name="CyanogenMod/android_device_samsung_trltespr" revision="cm-12.1" />
+  <project path="device/samsung/trltetmo" name="CyanogenMod/android_device_samsung_trltetmo" revision="cm-12.1" />
   <project path="device/sony/amami" name="CyanogenMod/android_device_sony_amami" />
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" groups="device" />
@@ -196,12 +196,12 @@
   <project path="device/sony/pollux_windy" name="CyanogenMod/android_device_sony_pollux_windy" />
   <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="vanir" />
   <project path="device/sony/rhine-common" name="CyanogenMod/android_device_sony_rhine-common" />
-  <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
+  <project path="device/sony/shinano-common" name="CyanogenMod/android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="CyanogenMod/android_device_sony_sirius" device="shinano" />
   <project path="device/sony/taoshan" name="CyanogenMod/android_device_sony_taoshan" />
   <project path="device/sony/togari" name="CyanogenMod/android_device_sony_togari" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
-  <project path="device/yu/lettuce" name="CyanogenMod/android_device_yu_lettuce" />
+  <project path="device/yu/lettuce" name="CyanogenMod/android_device_yu_lettuce" revision="cm-12.1" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
 
 <!-- CM -->
