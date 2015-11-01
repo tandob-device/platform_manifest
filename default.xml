@@ -78,7 +78,7 @@
 <!-- Device Nexus -->
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" />
-<!--  <project path="device/asus/fugu" name="android_device_asus_fugu" /> -->
+  <project path="device/asus/fugu" name="android_device_asus_fugu" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" />
   <project path="device/htc/flounder" name="device_htc_flounder" remote="vanir"/>
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" />
