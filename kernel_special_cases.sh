@@ -2,7 +2,7 @@
 #this is brittle, but it ought to get the job done.
 
 ## all non-specified kernels are assumed to be from CyanogenMod
-export remote="cm"
+export remote="cmold"
 export remoterevision="cm-13.0"
 
 case $1 in
