@@ -46,10 +46,6 @@
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" />
   <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="vanir" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="vanir" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="vanir" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2015" remote="vanir" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" groups="vendor" />
   <project path="vendor/commotio" name="commotio" remote="commotio" revision="51" groups="vendor" />
   <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" />
