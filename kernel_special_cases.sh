@@ -8,17 +8,17 @@ export remoterevision="cm-13.0"
 case $1 in
     d800|d801|d802|f320|ls980|vs980)
         export remote="vanir"
-        export remoterevision="L51"
+        export remoterevision="m6"
         export kernelsource="kernel_lge_msm8974"
     ;;
     d803)
         export remote="vanir"
-        export remoterevision="old_L51"
+        export remoterevision="m6"
         export kernelsource="kernel_lge_msm8974"
     ;;
     d85*|ls990|vs985|f400*)
         export remote="vanir"
-        export remoterevision="L51"
+        export remoterevision="m6"
         export kernelsource="kernel_lge_g3"
     ;;
     e980)
@@ -26,22 +26,22 @@ case $1 in
     ;;
     find5|n1)
         export remote="vanir"
-        export remoterevision="L51"
+        export remoterevision="m6"
         export kernelsource="kernel_oppo_n1"
     ;;
     golden)
         export remote="vanir"
-        export remoterevision="L51"
+        export remoterevision="m6"
         export kernelsource="kernel_samsung_golden"
     ;;
     hammerhead)
         export remote="vanir"
-        export remoterevision="L51"
+        export remoterevision="m6"
         export kernelsource="kernel_lge_hammerhead"
     ;;
     jf*)
         export remote="vanir"
-        export remoterevision="L51"
+        export remoterevision="m6"
         export kernelsource="kernel_samsung_jf"
     ;;
     klte*)
@@ -51,7 +51,7 @@ case $1 in
     ;;
     m8)
         export remote="vanir"
-        export remoterevision="L51"
+        export remoterevision="m6"
         export kernelsource="kernel_htc_msm8974"
     ;;
     oneplus2)
