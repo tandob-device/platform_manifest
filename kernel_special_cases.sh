@@ -3,7 +3,7 @@
 
 ## all non-specified kernels are assumed to be from CyanogenMod
 export remote="cm"
-export remoterevision="cm-12.1"
+export remoterevision="cm-13.0"
 
 case $1 in
     d800|d801|d802|f320|ls980|vs980)
@@ -65,7 +65,7 @@ case $1 in
     ;;
     shamu)
         export remote="vanir"
-        export remoterevision="L51"
+        export remoterevision="m6"
         export kernelsource="kernel_moto_shamu"
     ;;
     shieldtablet)
