@@ -63,6 +63,7 @@
 <!-- Muppets -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-12.1" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-13.0" />
+  <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="cm-13.0" />
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-12.1" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-12.1" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-13.0" />
@@ -97,6 +98,8 @@
   <project path="device/htc/msm8974-common" name="CyanogenMod/android_device_htc_msm8974-common" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" />
   <project path="device/htc/ville" name="CyanogenMod/android_device_htc_ville" />
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="vanir" />
+  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="vanir" />
   <project path="device/lge/d800" name="device_lge_d800" remote="vanir" />
   <project path="device/lge/d801" name="device_lge_d801" remote="vanir" />
   <project path="device/lge/d802" name="device_lge_d802" remote="vanir" />
