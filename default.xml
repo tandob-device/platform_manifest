@@ -39,6 +39,7 @@
   <project path="bootable/recovery-aosp" name="bootable_recovery-aosp" groups="pdk" remote="vanir" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" />
+  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" />
   <project path="frameworks/av" name="frameworks_av" remote="vanir" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="vanir" />
   <project path="frameworks/native" name="frameworks_native" remote="vanir" groups="pdk" />
@@ -282,7 +283,6 @@
   <!-- <project path="external/powertop" name="CyanogenMod/android_external_powertop" /> -->
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
-  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
