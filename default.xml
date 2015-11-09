@@ -184,7 +184,6 @@
   <project path="device/sony/honami" name="CyanogenMod/android_device_sony_honami" />
   <project path="device/sony/msm8960-common" name="CyanogenMod/android_device_sony_msm8960-common" revision="cm-12.1" />
   <project path="device/sony/msm8974-common" name="CyanogenMod/android_device_sony_msm8974-common" />
-  <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/pollux_windy" name="CyanogenMod/android_device_sony_pollux_windy" />
