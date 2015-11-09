@@ -50,7 +50,7 @@
   <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" />
   <project path="vendor/asus" name="vendor_asus" remote="vanir" groups="vendor" />
-  <project path="vendor/commotio" name="commotio" remote="commotio" revision="51" groups="vendor" />
+  <project path="vendor/commotio" name="commotio" remote="commotio" revision="6" groups="vendor" />
   <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" />
   <project path="vendor/htc" name="vendor_htc" remote="vanir" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" />
