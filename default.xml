@@ -62,7 +62,7 @@
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" groups="vendor" />
 
 <!-- Muppets -->
-  <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-12.1" />
+  <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-13.0" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-13.0" />
   <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="cm-13.0" />
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-12.1" />
@@ -80,8 +80,8 @@
   <project path="device/asus/fugu" name="CyanogenMod/android_device_asus_fugu" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" groups="device" />
-  <project path="device/cyanogen/msm8916-common" name="CyanogenMod/android_device_cyanogen_msm8916-common" revision="cm-12.1" />
-  <project path="device/cyanogen/msm8939-common" name="CyanogenMod/android_device_cyanogen_msm8939-common" revision="cm-12.1" />
+  <project path="device/cyanogen/msm8916-common" name="CyanogenMod/android_device_cyanogen_msm8916-common" />
+  <project path="device/cyanogen/msm8939-common" name="CyanogenMod/android_device_cyanogen_msm8939-common" />
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" />
   <project path="device/htc/evita" name="CyanogenMod/android_device_htc_evita" />
   <project path="device/htc/flounder" name="device_htc_flounder" remote="vanir"/>
@@ -138,13 +138,13 @@
   <project path="device/oppo/find7-common" name="CyanogenMod/android_device_oppo_find7-common" device="find7" />
   <project path="device/oppo/find7s" name="CyanogenMod/android_device_oppo_find7s" device="find7" />
   <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" device="BACON" />
-  <project path="device/oppo/n1" name="CyanogenMod/android_device_oppo_n1" device="oppo_n1" revision="cm-12.1" />
+  <project path="device/oppo/n1" name="CyanogenMod/android_device_oppo_n1" device="oppo_n1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
   <project path="device/samsung/d2-common" name="CyanogenMod/android_device_samsung_d2-common" groups="GS3_device" />
   <project path="device/samsung/d2att" name="CyanogenMod/android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="vanir" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="CyanogenMod/android_device_samsung_d2vzw" groups="GS3_device" />
-  <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" groups="hlte_device" revision="cm-12.1" />
+  <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" groups="hlte_device" />
   <project path="device/samsung/hlte-common" name="CyanogenMod/android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="CyanogenMod/android_device_samsung_hltespr" groups="hlte_device" />
   <project path="device/samsung/hltetmo" name="CyanogenMod/android_device_samsung_hltetmo" groups="hlte_device" revision="cm-12.1" />
