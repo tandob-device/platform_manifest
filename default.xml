@@ -120,7 +120,6 @@
   <project path="device/lge/ls990" name="CyanogenMod/android_device_lge_ls990" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" />
   <project path="device/lge/p880" name="device_lge_p880" remote="vanir" />
-  <project path="device/lge/v500" name="CyanogenMod/android_device_lge_v500" revision="cm-12.1" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
@@ -146,7 +145,6 @@
   <project path="device/samsung/d2att" name="CyanogenMod/android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="vanir" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="CyanogenMod/android_device_samsung_d2vzw" groups="GS3_device" />
-  <project path="device/samsung/golden" name="device_samsung_golden" remote="vanir" />
   <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" groups="hlte_device" revision="cm-12.1" />
   <project path="device/samsung/hlte-common" name="CyanogenMod/android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="CyanogenMod/android_device_samsung_hltespr" groups="hlte_device" />
@@ -198,7 +196,7 @@
   <project path="device/sony/taoshan" name="CyanogenMod/android_device_sony_taoshan" />
   <project path="device/sony/togari" name="CyanogenMod/android_device_sony_togari" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
-  <project path="device/yu/lettuce" name="CyanogenMod/android_device_yu_lettuce" revision="cm-12.1" />
+  <project path="device/yu/lettuce" name="CyanogenMod/android_device_yu_lettuce" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
 
 <!-- CM -->
