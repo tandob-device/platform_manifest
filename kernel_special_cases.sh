@@ -6,12 +6,7 @@ export remote="cmold"
 export remoterevision="cm-13.0"
 
 case $1 in
-    d800|d801|d802|f320|ls980|vs980)
-        export remote="vanir"
-        export remoterevision="m6"
-        export kernelsource="kernel_lge_msm8974"
-    ;;
-    d803)
+    d800|d801|d802|d803|f320|ls980|vs980)
         export remote="vanir"
         export remoterevision="m6"
         export kernelsource="kernel_lge_msm8974"
@@ -23,16 +18,12 @@ case $1 in
     ;;
     e980)
         export kernelsource="lge-kernel-gproj"
+        export remoterevision="cm-12.1"
     ;;
     find5|n1)
         export remote="vanir"
         export remoterevision="m6"
         export kernelsource="kernel_oppo_n1"
-    ;;
-    golden)
-        export remote="vanir"
-        export remoterevision="m6"
-        export kernelsource="kernel_samsung_golden"
     ;;
     hammerhead)
         export remote="vanir"
@@ -43,16 +34,6 @@ case $1 in
         export remote="vanir"
         export remoterevision="m6"
         export kernelsource="kernel_samsung_jf"
-    ;;
-    klte*)
-        export remote="github"
-        export remoterevision="boeffla_cm12.1"
-        export kernelsource="andip71/boeffla-kernel-cm-s5"
-    ;;
-    m8)
-        export remote="vanir"
-        export remoterevision="m6"
-        export kernelsource="kernel_htc_msm8974"
     ;;
     oneplus2)
         export remote="github"
@@ -67,18 +48,5 @@ case $1 in
         export remote="vanir"
         export remoterevision="m6"
         export kernelsource="kernel_moto_shamu"
-    ;;
-    shieldtablet)
-        export remote="github"
-        export remoterevision="12.0"
-        export kernelsource="ShieldTabDev/android_kernel_nvidia_shieldtablet"
-    ;;
-    taoshan)
-        export remote="github"
-        export remoterevision="android-5.0"
-        export kernelsource="omnirom/android_kernel_sony_msm8930"
-    ;;
-    tf700|tf700t)
-        export remoterevision="cm-12.0"
     ;;
 esac
