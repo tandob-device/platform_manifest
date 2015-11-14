@@ -57,6 +57,7 @@
   <project path="vendor/commotio" name="commotio" remote="commotio" revision="6" groups="vendor" />
   <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" />
   <project path="vendor/htc" name="vendor_htc" remote="vanir" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="vanir" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" />
   <project path="vendor/nvidia" name="vendor_nvidia" remote="vanir" />
   <project path="vendor/motorola" name="vendor_motorola" remote="vanir" groups="vendor"/>
@@ -68,7 +69,6 @@
 <!-- Muppets -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-13.0" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-13.0" />
-  <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="cm-13.0" />
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-12.1" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-12.1" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-13.0" />
