@@ -35,6 +35,11 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_samsung_jf"
     ;;
+    klte*)
+        export remote="github"
+        export remoterevision="m6"
+        export kernelsource="vanir"
+    ;;
     oneplus2)
         export remote="github"
         export kernelsource="Grarak/android_kernel_oneplus_msm8994"
