@@ -38,6 +38,7 @@ case $1 in
     klte*)
         export remote="vanir"
         export remoterevision="m6"
+        export kernelsource="kernel_samsung_klte"
     ;;
     oneplus2)
         export remote="github"
