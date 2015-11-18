@@ -36,9 +36,8 @@ case $1 in
         export kernelsource="kernel_samsung_jf"
     ;;
     klte*)
-        export remote="github"
+        export remote="vanir"
         export remoterevision="m6"
-        export kernelsource="vanir"
     ;;
     oneplus2)
         export remote="github"
