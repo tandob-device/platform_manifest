@@ -51,6 +51,7 @@
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" />
   <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="system/core" name="system_core" groups="pdk" remote="vanir" />
   <project path="system/extras/su" name="system_extras_su" remote="vanir" />
 
@@ -443,7 +444,6 @@
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" groups="pdk-fs" />
