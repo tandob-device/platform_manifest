@@ -35,6 +35,11 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_lge_hammerhead"
     ;;
+    grouper)
+        export remote="github"
+        export remoterevision="mm6.0"
+        export kernelsource="AICP/kernel_asus_grouper"
+    ;;
     jf*)
         export remote="vanir"
         export remoterevision="m6"
