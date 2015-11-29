@@ -208,6 +208,9 @@
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="device/yu/lettuce" name="CyanogenMod/android_device_yu_lettuce" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
+  <project path="hardware/sony/thermanager" name="CyanogenMod/android_hardware_sony_thermanager" />
+  <project path="hardware/sony/timekeep" name="CyanogenMod/android_hardware_sony_timekeep" />
+
 
 <!-- CM -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
