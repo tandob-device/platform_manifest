@@ -159,7 +159,7 @@
   <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" groups="hlte_device" />
   <project path="device/samsung/hlte-common" name="CyanogenMod/android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="CyanogenMod/android_device_samsung_hltespr" groups="hlte_device" />
-  <project path="device/samsung/hltetmo" name="CyanogenMod/android_device_samsung_hltetmo" groups="hlte_device" revision="cm-12.1" />
+  <project path="device/samsung/hltetmo" name="device_samsung_hltetmo" groups="hlte_device" remote="vanir" revision="m6" />
   <project path="device/samsung/i605" name="CyanogenMod/android_device_samsung_i605" groups="device" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="vanir" />
   <project path="device/samsung/jflteatt" name="CyanogenMod/android_device_samsung_jflteatt" />
