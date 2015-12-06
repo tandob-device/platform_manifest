@@ -117,20 +117,17 @@
   <project path="device/lge/d851" name="CyanogenMod/android_device_lge_d851" />
   <project path="device/lge/d852" name="CyanogenMod/android_device_lge_d852" />
   <project path="device/lge/d855" name="CyanogenMod/android_device_lge_d855" />
-  <project path="device/lge/e980" name="device_lge_e980" remote="vanir" />
   <project path="device/lge/f320" name="device_lge_f320" remote="vanir" />
   <project path="device/lge/f400" name="device_lge_f400" remote="vanir" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" />
   <project path="device/lge/g3-common" name="device_lge_g3-common" remote="vanir" />
   <project path="device/lge/g4-common" name="CyanogenMod/android_device_lge_g4-common" />
-  <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" />
   <project path="device/lge/h811" name="CyanogenMod/android_device_lge_h811" />
   <project path="device/lge/h815" name="CyanogenMod/android_device_lge_h815" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" />
   <project path="device/lge/ls990" name="CyanogenMod/android_device_lge_ls990" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" />
-  <project path="device/lge/p880" name="device_lge_p880" remote="vanir" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />

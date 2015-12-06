@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Simply drag this to .repo/localmanifests and sync up -->
+
+  <!--e980 -->
+  <project path="device/lge/e980" name="device_lge_e980" remote="vanir" />
+  <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" />
+  <project path="kernel/lge/gproj" name="lge-kernel-gproj" revision="cm-12.1" />
+
+  <!--p880 -->
+  <project path="device/lge/p880" name="device_lge_p880" remote="vanir" />
+  <project path="kernel/lge/p880" name="CyanogenMod/lge-kernel-p880" revision="cm-12.1" />
+
+</manifest>
+
+

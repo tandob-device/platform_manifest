@@ -21,10 +21,6 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_lge_g3"
     ;;
-    e980)
-        export kernelsource="lge-kernel-gproj"
-        export remoterevision="cm-12.1"
-    ;;
     find5|n1)
         export remote="vanir"
         export remoterevision="m6"
@@ -54,11 +50,6 @@ case $1 in
         export remote="github"
         export remoterevision="cm-13.0-exp"
         export kernelsource="Grarak/android_kernel_oneplus_msm8994"
-    ;;
-    p880)
-        export remote="cm"
-        export remoterevision="cm-12.1"
-        export kernelsource="CyanogenMod/lge-kernel-p880"
     ;;
     shamu)
         export remote="vanir"
