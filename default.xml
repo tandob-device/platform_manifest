@@ -186,9 +186,6 @@
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" groups="device" />
-  <project path="device/samsung/trlte-common" name="CyanogenMod/android_device_samsung_trlte-common" revision="cm-12.1" />
-  <project path="device/samsung/trltespr" name="CyanogenMod/android_device_samsung_trltespr" revision="cm-12.1" />
-  <project path="device/samsung/trltetmo" name="CyanogenMod/android_device_samsung_trltetmo" revision="cm-12.1" />
   <project path="device/sony/amami" name="CyanogenMod/android_device_sony_amami" />
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" groups="device" />
