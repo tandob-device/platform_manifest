@@ -53,7 +53,7 @@
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" />
   <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" />
-  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vanir" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="system/core" name="system_core" groups="pdk" remote="vanir" />
   <project path="system/extras/su" name="system_extras_su" remote="vanir" />
