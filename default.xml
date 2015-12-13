@@ -82,6 +82,7 @@
 
 <!-- All other remotes -->
   <project path="ccache" name="ccache.git" remote="samba" revision="master" />
+  <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-13.0" />
 
 <!-- Devices -->
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
@@ -204,6 +205,7 @@
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="device/yu/lettuce" name="CyanogenMod/android_device_yu_lettuce" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
+  <project path="device/xiaomi/armani" name="Team-Agni/vanir_armani" remote="github" revision="m6" />
   <!-- Device specific repos -->
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />  
   <project path="external/bson" name="CyanogenMod/android_external_bson" />  
