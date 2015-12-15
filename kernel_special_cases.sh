@@ -11,6 +11,10 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_huawei_angler"
     ;;
+    armani)
+        export remote="github"
+        export kernelsource="armani-dev/android_kernel_xiaomi_armani"
+    ;;
     d800|d801|d802|d803|f320|ls980|vs980)
         export remote="vanir"
         export remoterevision="m6"
