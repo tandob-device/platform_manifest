@@ -19,6 +19,11 @@ case $1 in
         export remote="github"
         export kernelsource="wyldstallyns/nighthawk_kernel_bullhead"
     ;;
+    bullhead)
+        export remote="github"
+        export remoterevision="mashmellow"
+        export kernelsource="kernel-hut/android_kernel_xiaomi_cancro"
+    ;;
     d800|d801|d802|d803|f320|ls980|vs980)
         export remote="vanir"
         export remoterevision="m6"

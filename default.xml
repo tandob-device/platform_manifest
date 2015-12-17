@@ -72,6 +72,7 @@
   <project path="vendor/samsung" name="vendor_samsung" remote="vanir" groups="vendor" />
   <project path="vendor/sony" name="vendor_sony" remote="vanir" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" groups="vendor" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="vanir" />
 
 <!-- Muppets -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-13.0" />
@@ -209,6 +210,7 @@
   <project path="device/yu/lettuce" name="CyanogenMod/android_device_yu_lettuce" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
   <project path="device/xiaomi/armani" name="Team-Agni/vanir_armani" remote="github" revision="m6" />
+  <project path="device/xiaomi/cancro" name="Team-Agni/vanir_cancro" remote="github" revision="m6" />
   <!-- Device specific repos -->
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />  
   <project path="external/bson" name="CyanogenMod/android_external_bson" />  
