@@ -85,7 +85,6 @@
 
 <!-- All other remotes -->
   <project path="ccache" name="ccache.git" remote="samba" revision="master" />
-  <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-13.0" />
 
 <!-- Devices -->
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
