@@ -78,6 +78,7 @@
 <!-- Muppets -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-13.0" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-13.0" />
+  <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-13.0" />
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-13.0" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-13.0" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-13.0" />
@@ -95,6 +96,9 @@
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" groups="device" />
   <project path="device/cyanogen/msm8916-common" name="CyanogenMod/android_device_cyanogen_msm8916-common" />
   <project path="device/cyanogen/msm8939-common" name="CyanogenMod/android_device_cyanogen_msm8939-common" />
+  <project path="device/google/sprout4" name="CyanogenMod/android_device_google_sprout4" />
+  <project path="device/google/sprout8" name="CyanogenMod/android_device_google_sprout8" />
+  <project path="device/google/sprout-common" name="CyanogenMod/android_device_google_sprout-common" />
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" />
   <project path="device/htc/evita" name="CyanogenMod/android_device_htc_evita" />
   <project path="device/htc/flounder" name="device_htc_flounder" remote="vanir"/>
