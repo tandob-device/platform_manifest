@@ -29,11 +29,6 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_lge_msm8974"
     ;;
-    d85*|ls990|vs985|f400*)
-        export remote="vanir"
-        export remoterevision="m6"
-        export kernelsource="kernel_lge_g3"
-    ;;
     find5|n1)
         export remote="vanir"
         export remoterevision="m6"
