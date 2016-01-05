@@ -13,7 +13,7 @@ case $1 in
     ;;
     armani)
         export remote="github"
-        export kernelsource="armani-dev/android_kernel_xiaomi_armani"
+        export kernelsource="armani-dev/kernel_test"
     ;;
     bullhead)
         export remote="github"
