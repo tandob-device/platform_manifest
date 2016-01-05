@@ -42,11 +42,13 @@
   <project path="external/klogripper" name="external_klogripper" remote="vanir" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="vanir" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="vanir"/>
   <project path="frameworks/av" name="frameworks_av" remote="vanir" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="vanir" />
   <project path="frameworks/native" name="frameworks_native" remote="vanir" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="vanir" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="vanir" />
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" />
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" />
   <project path="packages/apps/IndecentXposure" name="packages_apps_IndecentXposure" remote="vanir" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="vanir" />
@@ -226,7 +228,6 @@
 
 <!-- CM -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
@@ -245,7 +246,6 @@
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" groups="pdk" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" />
-  <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
@@ -321,7 +321,6 @@
   <project path="external/unrar" name="CyanogenMod/android_external_unrar" />
   <project path="external/unzip" name="CyanogenMod/android_external_unzip" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
@@ -368,7 +367,6 @@
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8952" />
@@ -491,6 +489,7 @@
 <!-- END CYANOGENMOD -->
 
 <!--  AOSP -->
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
@@ -515,6 +514,7 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" />
