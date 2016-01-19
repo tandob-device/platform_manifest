@@ -19,11 +19,6 @@ case $1 in
         export remote="github"
         export kernelsource="wyldstallyns/nighthawk_kernel_bullhead"
     ;;
-    bullhead)
-        export remote="github"
-        export remoterevision="mashmellow"
-        export kernelsource="kernel-hut/android_kernel_xiaomi_cancro"
-    ;;
     cancro)
         export remote="github"
         export remoterevision="mashmellow"
