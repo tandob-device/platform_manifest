@@ -90,6 +90,7 @@
 
 <!-- All other remotes -->
   <project path="ccache" name="ccache.git" remote="samba" revision="master" />
+  <project path="packages/apps/brave" name="brave/browser-android" remote="github" revision="master" />
 
 <!-- Devices -->
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
