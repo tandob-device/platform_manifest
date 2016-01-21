@@ -54,10 +54,6 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_samsung_klte"
     ;;
-    onyx)
-        export remote="github"
-        export kernelsource="ashwinr64/android_kernel_oneplus_onyx"
-    ;;
     shamu)
         export remote="vanir"
         export remoterevision="m6"
