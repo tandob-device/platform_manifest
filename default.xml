@@ -153,7 +153,7 @@
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" />
   <project path="device/motorola/victara" name="CyanogenMod/android_device_motorola_victara" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" />
-  <project path="device/oneplus/oneplus2" name="Seraph08/android_device_oneplus_oneplus2" remote="github" revision="cm-13.0-exp" />
+  <project path="device/oneplus/oneplus2" name="Seraph08/android_device_oneplus_oneplus2" remote="github" />
   <project path="device/oneplus/onyx" name="CyanogenMod/android_device_oneplus_onyx" device="onyx" />
   <project path="device/oppo/apq8064-common" name="device_oppo_apq8064-common" remote="vanir" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" />
