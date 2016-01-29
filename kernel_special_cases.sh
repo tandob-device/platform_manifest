@@ -52,6 +52,7 @@ case $1 in
     oneplus2)
         export remote="github"
         export kernelsource="Seraph08/android_kernel_oneplus_msm8994"
+        export remoterevision="cm-13.0-exp"
     ;;
     shamu)
         export remote="vanir"
