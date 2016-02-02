@@ -59,6 +59,7 @@
   <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vanir" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="vanir"/>
   <project path="system/core" name="system_core" groups="pdk" remote="vanir" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="vanir" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="vanir"  />
@@ -479,7 +480,6 @@
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
-  <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
