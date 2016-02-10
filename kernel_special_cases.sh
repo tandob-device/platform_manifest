@@ -49,6 +49,11 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_samsung_klte"
     ;;
+    oneplus2)
+        export remote="github"
+        export kernelsource="Seraph08/android_kernel_oneplus_msm8994"
+        export remoterevision="cm-13.0"
+    ;;
     shamu)
         export remote="vanir"
         export remoterevision="m6"
