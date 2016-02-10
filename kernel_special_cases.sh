@@ -34,6 +34,11 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_oppo_n1"
     ;;
+    grouper|tilapia)
+        export remote="github"
+        export remoterevision="cm-13.0"
+        export kernelsource="GtrCraft/cyanogenmod_kernel_grouper"
+    ;;
     hammerhead)
         export remote="vanir"
         export remoterevision="m6"
