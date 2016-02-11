@@ -170,11 +170,13 @@
   <project path="device/samsung/d2att" name="CyanogenMod/android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="vanir" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="CyanogenMod/android_device_samsung_d2vzw" groups="GS3_device" />
+  <project path="device/samsung/galaxys2-common" name="Team-Agni/android_device_samsung_galaxys2-common" remote="github" revision="m6"  groups="i900" />
   <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" groups="hlte_device" />
   <project path="device/samsung/hlte-common" name="CyanogenMod/android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="CyanogenMod/android_device_samsung_hltespr" groups="hlte_device" />
   <project path="device/samsung/hltetmo" name="device_samsung_hltetmo" groups="hlte_device" remote="vanir" revision="m6" />
   <project path="device/samsung/i605" name="CyanogenMod/android_device_samsung_i605" groups="device" />
+  <project path="device/samsung/i9100" name="Team-Agni/android_device_samsung_i9100" remote="github" revision="m6"  groups="i900" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="vanir" />
   <project path="device/samsung/jflteatt" name="CyanogenMod/android_device_samsung_jflteatt" />
   <project path="device/samsung/jfltespr" name="CyanogenMod/android_device_samsung_jfltespr" />
