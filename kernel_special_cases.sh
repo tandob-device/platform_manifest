@@ -44,6 +44,11 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_lge_hammerhead"
     ;;
+    i9100|n5100|n5110)
+        export remote="vanir"
+        export remoterevision="m6"
+        export kernelsource="kernel_samsung_smdk4412"
+    ;;
     jf*)
         export remote="vanir"
         export remoterevision="m6"
