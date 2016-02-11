@@ -214,7 +214,6 @@
   <project path="device/sony/sirius" name="CyanogenMod/android_device_sony_sirius" device="shinano" />
   <project path="device/sony/taoshan" name="CyanogenMod/android_device_sony_taoshan" />
   <project path="device/sony/togari" name="CyanogenMod/android_device_sony_togari" />
-  <project path="device/sony/togari_gpe" name="CyanogenMod/android_device_sony_togari_gpe" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="device/yu/lettuce" name="CyanogenMod/android_device_yu_lettuce" />
   <project path="device/yu/tomato" name="device_yu_tomato" remote="vanir" />
