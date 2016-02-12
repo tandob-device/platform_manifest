@@ -36,8 +36,8 @@ case $1 in
     ;;
     grouper|tilapia)
         export remote="github"
-        export remoterevision="cm-13.0"
-        export kernelsource="GtrCraft/cyanogenmod_kernel_grouper"
+        export remoterevision="mm6.0"
+        export kernelsource="AICP/kernel_grouper"
     ;;
     hammerhead)
         export remote="vanir"
