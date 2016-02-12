@@ -37,7 +37,7 @@ case $1 in
     grouper|tilapia)
         export remote="github"
         export remoterevision="mm6.0"
-        export kernelsource="AICP/kernel_grouper"
+        export kernelsource="AICP/kernel_asus_grouper"
     ;;
     hammerhead)
         export remote="vanir"
