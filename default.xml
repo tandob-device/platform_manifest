@@ -99,7 +99,6 @@
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" />
   <project path="device/asus/fugu" name="CyanogenMod/android_device_asus_fugu" />
   <project path="device/asus/grouper" name="AICP/device_asus_grouper" remote="github" revision="mm6.0" />
-  <project path="device/asus/tilapia" name="AICP/device_asus_tilapia" remote="github" revision="mm6.0" />
   <project path="device/cyanogen/msm8916-common" name="CyanogenMod/android_device_cyanogen_msm8916-common" />
   <project path="device/cyanogen/msm8939-common" name="CyanogenMod/android_device_cyanogen_msm8939-common" />
   <project path="device/google/sprout4" name="CyanogenMod/android_device_google_sprout4" />
