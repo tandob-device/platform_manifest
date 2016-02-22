@@ -43,6 +43,7 @@
   <project path="external/klogripper" name="external_klogripper" remote="vanir" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="vanir" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" />
+  <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="vanir" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="vanir" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="vanir"/>
   <project path="frameworks/av" name="frameworks_av" remote="vanir" groups="pdk" />
@@ -311,7 +312,6 @@
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
