@@ -106,6 +106,11 @@
   <project path="device/google/sprout-common" name="CyanogenMod/android_device_google_sprout-common" />
   <project path="device/htc/evita" name="CyanogenMod/android_device_htc_evita" />
   <project path="device/htc/flounder" name="device_htc_flounder" remote="vanir"/>
+  <project path="device/htc/hiae-common" name="CyanogenMod/android_device_htc_hiae-common" />
+  <project path="device/htc/hiaeul" name="CyanogenMod/android_device_htc_hiaeul" />
+  <project path="device/htc/hiaeuhl" name="CyanogenMod/android_device_htc_hiaeuhl" />
+  <project path="device/htc/hima-common" name="CyanogenMod/android_device_htc_hima-common" />
+  <project path="device/htc/himaul" name="CyanogenMod/android_device_htc_himaul" />
   <project path="device/htc/jewel" name="CyanogenMod/android_device_htc_jewel" />
   <project path="device/htc/m4" name="device_htc_m4" remote="vanir" />
   <project path="device/htc/m7" name="device_htc_m7" remote="vanir" />
