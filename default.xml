@@ -195,7 +195,6 @@
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" groups="device" />
   <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" groups="device" />
-  <project path="device/samsung/noblelte" name="CyanogenMod/android_device_samsung_noblelte" />
   <project path="device/samsung/nobleltetmo" name="CyanogenMod/android_device_samsung_nobleltetmo" />
   <project path="device/samsung/noblelte-common" name="CyanogenMod/android_device_samsung_noblelte-common" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" groups="device" />
