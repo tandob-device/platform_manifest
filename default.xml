@@ -227,7 +227,6 @@
   <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" />
   <project path="hardware/samsung_slsi-cm/exynos7420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420" />
   <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" />
-  <project path="hardware/sony/camera" name="CyanogenMod/android_hardware_sony_camera" />
   <project path="hardware/sony/macaddrsetup" name="CyanogenMod/android_hardware_sony_macaddrsetup" />
   <project path="hardware/sony/thermanager" name="CyanogenMod/android_hardware_sony_thermanager" />
   <project path="hardware/sony/timekeep" name="CyanogenMod/android_hardware_sony_timekeep" />
