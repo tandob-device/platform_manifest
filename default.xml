@@ -141,7 +141,7 @@
   <project path="device/lge/h811" name="CyanogenMod/android_device_lge_h811" />
   <project path="device/lge/h815" name="CyanogenMod/android_device_lge_h815" />
   <project path="device/lge/h901" name="CyanogenMod/android_device_lge_h901" device="v10-common"/>
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" />
+  <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" />
   <project path="device/lge/ls990" name="CyanogenMod/android_device_lge_ls990" />
   <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" />
