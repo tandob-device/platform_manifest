@@ -41,6 +41,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="vanir" />
   <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="vanir" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" />
+  <project path="external/libavc" name="external_libavc" groups="pdk" remote="vanir" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="vanir" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="vanir" />
@@ -53,6 +54,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="vanir" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" />
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="packages/apps/Email" name="packages_apps_Email" groups="pdk-fs" remote="vanir" />
   <project path="packages/apps/IndecentXposure" name="packages_apps_IndecentXposure" remote="vanir" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="vanir" />
@@ -417,7 +419,6 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="CyanogenMod/android_packages_apps_ExactCalculator" />
@@ -583,7 +584,6 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libavc" name="CyanogenMod/android_external_libavc" groups="pdk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
