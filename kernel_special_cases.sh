@@ -29,15 +29,10 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_lge_msm8974"
     ;;
-    find5|n1)
+    find5)
         export remote="vanir"
         export remoterevision="m6"
         export kernelsource="kernel_oppo_n1"
-    ;;
-    grouper|tilapia)
-        export remote="github"
-        export remoterevision="mm6.0"
-        export kernelsource="AICP/kernel_asus_grouper"
     ;;
     i9100)
         export remote="vanir"
