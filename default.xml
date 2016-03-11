@@ -101,7 +101,6 @@
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
   <project path="device/asus/flo" name="device_asus_flo" remote="vanir" />
   <project path="device/asus/fugu" name="CyanogenMod/android_device_asus_fugu" />
-  <project path="device/asus/grouper" name="AICP/device_asus_grouper" remote="github" revision="mm6.0" />
   <project path="device/cyanogen/msm8916-common" name="CyanogenMod/android_device_cyanogen_msm8916-common" />
   <project path="device/cyanogen/msm8939-common" name="CyanogenMod/android_device_cyanogen_msm8939-common" />
   <project path="device/google/sprout4" name="CyanogenMod/android_device_google_sprout4" />
@@ -164,14 +163,13 @@
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" />
   <project path="device/oneplus/oneplus2" name="Grarak/android_device_oneplus_oneplus2" remote="github" />
   <project path="device/oneplus/onyx" name="AndroidNoob69/android_device_oneplus_onyx" remote="github" device="onyx" />
-  <project path="device/oppo/apq8064-common" name="device_oppo_apq8064-common" remote="vanir" device="oppo_n1" />
-  <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" />
+  <project path="device/oppo/apq8064-common" name="device_oppo_apq8064-common" remote="vanir" device="oppo_find5" />
+  <project path="device/oppo/common" name="device_oppo_common" device="oppo_find5" remote="vanir" />
   <project path="device/oppo/find5" name="device_oppo_find5" device="find5" remote="vanir" />
   <project path="device/oppo/find7" name="CyanogenMod/android_device_oppo_find7" device="find7" />
   <project path="device/oppo/find7-common" name="CyanogenMod/android_device_oppo_find7-common" device="find7" />
   <project path="device/oppo/find7s" name="CyanogenMod/android_device_oppo_find7s" device="find7" />
   <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" device="BACON" />
-  <project path="device/oppo/n1" name="CyanogenMod/android_device_oppo_n1" device="oppo_n1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
   <project path="device/samsung/d2-common" name="CyanogenMod/android_device_samsung_d2-common" groups="GS3_device" />
   <project path="device/samsung/d2att" name="CyanogenMod/android_device_samsung_d2att" groups="GS3_device" />
