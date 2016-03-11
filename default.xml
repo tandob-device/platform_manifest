@@ -124,6 +124,7 @@
   <project path="packages/providers/UserDictionaryProvider" name="packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="packages/screensavers/Basic" name="packages_screensavers_Basic" groups="pdk-fs" remote="vanir" />
   <project path="packages/screensavers/PhotoTable" name="packages_screensavers_PhotoTable" groups="pdk-fs" remote="vanir" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="packages/wallpapers/Basic" name="packages_wallpapers_Basic" groups="pdk-fs" remote="vanir" />
   <project path="packages/wallpapers/HoloSpiral" name="packages_wallpapers_HoloSpiral" groups="pdk-fs" remote="vanir" />
   <project path="packages/wallpapers/LivePicker" name="packages_wallpapers_LivePicker" groups="pdk-fs" remote="vanir" />
@@ -484,7 +485,6 @@
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
