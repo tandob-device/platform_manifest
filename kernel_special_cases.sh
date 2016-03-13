@@ -21,8 +21,7 @@ case $1 in
     ;;
     cancro)
         export remote="github"
-        export remoterevision="mashmellow"
-        export kernelsource="kernel-hut/android_kernel_xiaomi_cancro"
+        export kernelsource="MrBaNkS/android_kernel_xiaomi_cancro"
     ;;
     d800|d801|d802|d803|f320|ls980|vs980)
         export remote="vanir"
