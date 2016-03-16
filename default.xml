@@ -11,7 +11,7 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-6.0.1_r22" />
+          revision="refs/tags/android-6.0.1_r21" />
   <remote name="cmold"
           fetch="https://github.com/CyanogenMod"/>
   <remote name="cm"
@@ -74,9 +74,6 @@
 
   <!-- android-6.0.1_r21 - forked from cm -->
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
-  <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="vanir" />
-  <project path="external/libvpx" name="external_libvpx" groups="pdk" remote="vanir" />
-  <project path="external/lzma" name="external_lzma" groups="pdk" remote="vanir" />
   <project path="external/sonivox" name="external_sonivox" groups="pdk" remote="vanir" />
   <project path="frameworks/minikin" name="frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="frameworks/opt/chips" name="frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
@@ -100,16 +97,12 @@
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="vanir" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="vanir" />
   <project path="libcore" name="libcore" groups="pdk" remote="vanir" />
-  <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="vanir" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-fs" remote="vanir" />
-  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="vanir" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="vanir" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" groups="pdk-fs" remote="vanir" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="vanir" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="vanir" />
-  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="vanir" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk-fs" remote="vanir" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="vanir" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="pdk-fs" remote="vanir" />
@@ -128,7 +121,6 @@
   <project path="packages/providers/UserDictionaryProvider" name="packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="packages/screensavers/Basic" name="packages_screensavers_Basic" groups="pdk-fs" remote="vanir" />
   <project path="packages/screensavers/PhotoTable" name="packages_screensavers_PhotoTable" groups="pdk-fs" remote="vanir" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="packages/wallpapers/Basic" name="packages_wallpapers_Basic" groups="pdk-fs" remote="vanir" />
   <project path="packages/wallpapers/HoloSpiral" name="packages_wallpapers_HoloSpiral" groups="pdk-fs" remote="vanir" />
   <project path="packages/wallpapers/LivePicker" name="packages_wallpapers_LivePicker" groups="pdk-fs" remote="vanir" />
@@ -214,7 +206,7 @@
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" />
   <project path="device/lge/ls990" name="CyanogenMod/android_device_lge_ls990" />
   <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" />
-  <project path="device/lge/v10-common" name="CyanogenMod/android_device_lge_v10-common" device="h901" />
+  <project path="device/lge/v10-common" name="genesixx/android_device_lge_v10-common" remote="github" device="h901" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
@@ -242,7 +234,7 @@
   <project path="device/samsung/d2att" name="CyanogenMod/android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="vanir" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="CyanogenMod/android_device_samsung_d2vzw" groups="GS3_device" />
-  <project path="device/samsung/galaxys2-common" name="CyanogenMod/android_device_samsung_galaxys2-common" remote="cm"  groups="i900" />
+  <project path="device/samsung/galaxys2-common" name="Team-Agni/android_device_samsung_galaxys2-common" remote="github" revision="m6"  groups="i900" />
   <project path="device/samsung/i9100" name="Team-Agni/android_device_samsung_i9100" remote="github" revision="m6"  groups="i900" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="vanir" />
   <project path="device/samsung/jflteatt" name="CyanogenMod/android_device_samsung_jflteatt" />
@@ -349,6 +341,7 @@
   <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
   <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" />
+  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
@@ -356,12 +349,14 @@
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
+  <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" groups="pdk" />
   <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
   <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" />
   <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" />
   <project path="external/lz4" name="CyanogenMod/android_external_lz4" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/lzma" name="CyanogenMod/android_external_lzma" groups="pdk" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" />
   <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" />
@@ -456,15 +451,20 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
+  <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
+  <project path="packages/apps/ExactCalculator" name="CyanogenMod/android_packages_apps_ExactCalculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />
+  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" />
+  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
 <!--  <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" />
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" /> -->
 <!--    <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" /> -->
+  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="CyanogenMod/android_packages_apps_Messaging" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
@@ -484,6 +484,7 @@
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
@@ -636,7 +637,7 @@
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" remote="aosp" />
-  <project path="external/pdfium" name="CyanogenMod/android_external_pdfium" groups="pdk" />
+  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" remote="aosp" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
