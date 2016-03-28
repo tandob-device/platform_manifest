@@ -33,6 +33,11 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_oppo_n1"
     ;;
+    fugu)
+        export remote="vanir"
+        export remoterevision="m6"
+        export kernelsource="kernel_asus_fugu"
+    ;;
     i9100)
         export remote="vanir"
         export remoterevision="m6"
