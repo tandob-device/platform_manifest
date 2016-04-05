@@ -39,11 +39,13 @@
   <project path="bootable/recovery-aosp" name="bootable_recovery-aosp" groups="pdk" remote="vanir" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="vanir" />
+  <project path="external/dhcpcd" name="external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="vanir" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" />
   <project path="external/libavc" name="external_libavc" groups="pdk" remote="vanir" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="vanir" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" />
+  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="vanir" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="vanir" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="vanir" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="vanir"/>
@@ -327,7 +329,6 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
-  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
@@ -378,7 +379,6 @@
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
