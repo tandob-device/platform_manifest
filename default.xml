@@ -290,7 +290,7 @@
   <project path="device/sony/togari" name="CyanogenMod/android_device_sony_togari" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="device/xiaomi/armani" name="device_xiaomi_armani" remote="vanir" />
-  <project path="device/xiaomi/cancro" name="Team-Agni/vanir_cancro" remote="github" revision="m6" />
+  <project path="device/xiaomi/cancro" name="device_xiaomi_cancro" remote="vanir" />
   <!-- Device specific repos -->
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />  
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
