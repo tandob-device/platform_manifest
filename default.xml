@@ -212,7 +212,7 @@
   <project path="device/lge/h811" name="CyanogenMod/android_device_lge_h811" />
   <project path="device/lge/h815" name="CyanogenMod/android_device_lge_h815" />
   <project path="device/lge/h901" name="CyanogenMod/android_device_lge_h901" device="v10-common"/>
-  <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" />
   <project path="device/lge/ls990" name="CyanogenMod/android_device_lge_ls990" />
   <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" />
@@ -343,7 +343,7 @@
   <project path="external/gmock" name="CyanogenMod/android_external_gmock"/>
   <project path="external/gson" name="CyanogenMod/android_external_gson" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
-  <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" />
+  <project path="external/icu" name="external_icu" groups="pdk" remote="vanir" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jarjar" name="CyanogenMod/android_external_jarjar" groups="pdk" />
@@ -539,7 +539,7 @@
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" remote="aosp" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/doclava" name="CyanogenMod/android_external_doclava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/doclava" name="external_doclava" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" remote="aosp" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="aosp" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="aosp" />
@@ -640,7 +640,7 @@
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" remote="aosp" />
-  <project path="external/pdfium" name="CyanogenMod/android_external_pdfium" groups="pdk" />
+  <project path="external/pdfium" name="external_pdfium" groups="pdk" remote="vanir" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
