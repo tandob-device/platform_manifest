@@ -296,7 +296,6 @@
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" /> -->
 <!--    <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" /> -->
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
-  <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="CyanogenMod/android_packages_apps_Messaging" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
