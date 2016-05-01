@@ -3,11 +3,11 @@
 
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
-          review="gerrit.vanir.co:8080"
+          review="gerrit.vanir.co:7070"
           revision="m6" />
   <remote name="commotio"
           fetch="https://github.com/DHOMD/"
-          review="gerrit.vanir.co:8080" />
+          review="gerrit.vanir.co:7070" />
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/"
