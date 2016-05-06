@@ -108,14 +108,14 @@
   <project path="device/samsung/zerofltexx" name="CyanogenMod/android_device_samsung_zerofltexx" />
   <project path="device/sony/amami" name="CyanogenMod/android_device_sony_amami" />
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" />
-  <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" groups="device" />
+  <project path="device/sony/fusion3-common" name="CyanogenMod/android_device_sony_fusion3-common" />
   <project path="device/sony/honami" name="CyanogenMod/android_device_sony_honami" />
   <project path="device/sony/msm8974-common" name="CyanogenMod/android_device_sony_msm8974-common" />
   <project path="device/sony/nicki" name="CyanogenMod/android_device_sony_nicki" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/pollux_windy" name="CyanogenMod/android_device_sony_pollux_windy" />
-  <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="vanir" />
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" />
   <project path="device/sony/rhine-common" name="CyanogenMod/android_device_sony_rhine-common" />
   <project path="device/sony/shinano-common" name="CyanogenMod/android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="CyanogenMod/android_device_sony_sirius" device="shinano" />
