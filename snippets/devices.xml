@@ -115,7 +115,6 @@
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/pollux_windy" name="CyanogenMod/android_device_sony_pollux_windy" />
-  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" />
   <project path="device/sony/rhine-common" name="CyanogenMod/android_device_sony_rhine-common" />
   <project path="device/sony/shinano-common" name="CyanogenMod/android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="CyanogenMod/android_device_sony_sirius" device="shinano" />
