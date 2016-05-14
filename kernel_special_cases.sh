@@ -53,6 +53,9 @@ case $1 in
         export remoterevision="m6"
         export kernelsource="kernel_samsung_klte"
     ;;
+    lettuce)
+        export remoterevision="staging/cm-13.0-lettuce"
+    ;;
     mako)
         export kernelsource="lge-kernel-mako"
     ;;
