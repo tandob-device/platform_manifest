@@ -24,8 +24,7 @@
   <remote name="samba"
           fetch="git://git.samba.org/" />
   <remote name="chromium"
-          fetch="https://chromium.googlesource.com/"
-          revision="master" />
+          fetch="https://chromium.googlesource.com/" />
   <default revision="cm-13.0"
           sync-j="12"
           remote="cm" />
