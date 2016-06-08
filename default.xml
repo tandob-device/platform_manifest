@@ -45,7 +45,6 @@
   <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="vanir" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" />
   <project path="external/libavc" name="external_libavc" groups="pdk" remote="vanir" />
-  <project path="external/libpng" name="external_libpng" groups="pdk" remote="vanir" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="vanir" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="vanir" />
@@ -440,6 +439,7 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
