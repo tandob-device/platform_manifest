@@ -302,7 +302,7 @@
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
   <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="CyanogenMod/android_packages_apps_Messaging" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vanir" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
