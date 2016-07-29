@@ -35,9 +35,10 @@
   </project>
   <project path="art" name="art" remote="vanir" />
   <project path="bionic" name="bionic" remote="vanir" groups="pdk" />
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="vanir" />
-  <project path="bootable/recovery-aosp" name="bootable_recovery-aosp" groups="pdk" remote="vanir" />
-  <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" />
+  <project path="bootable" name="bootable" groups="pdk" remote="vanir" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery-aosp" name="platform/bootable/recovery" groups="pdk" remote="aosp" />
+  <project path="bootable/recovery-twrp" name="TeamWin//Team-Win-Recovery-Project" groups="pdk" remote="github" revision="android-6.0" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="vanir" />
   <project path="external/boringssl" name="external_boringssl" groups="pdk" remote="vanir"  />
   <project path="external/dhcpcd" name="external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
