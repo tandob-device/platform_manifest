@@ -130,8 +130,8 @@
   <project path="device/yu/tomato" name="CyanogenMod/android_device_yu_tomato" />
 
   <project path="android_vendor_nxp-nfc_opensource_frameworks" name="CyanogenMod/vendor/nxp-nfc/opensource/frameworks" device="oneplus3" />
-  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci"" device="oneplus3" />
-  <project path="vendor/nxp-nfc/opensource/Nfc" name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc"" device="oneplus3" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" device="oneplus3" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" device="oneplus3" />
 
   
 </manifest>
