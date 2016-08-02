@@ -76,7 +76,7 @@
   <project path="device/oppo/find7-common" name="CyanogenMod/android_device_oppo_find7-common" device="find7" />
   <project path="device/oppo/find7s" name="CyanogenMod/android_device_oppo_find7s" device="find7" />
   <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" device="BACON" />
-  <project path="device/oppo/n3" name="CyanogenMod/android_device_n3" device="n3" />
+  <project path="device/oppo/n3" name="CyanogenMod/android_device_oppo_n3" device="n3" />
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
   <project path="device/samsung/d2-common" name="CyanogenMod/android_device_samsung_d2-common" groups="GS3_device" />
   <project path="device/samsung/d2att" name="CyanogenMod/android_device_samsung_d2att" groups="GS3_device" />
