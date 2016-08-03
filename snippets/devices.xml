@@ -16,6 +16,7 @@
   <project path="device/htc/hima-common" name="CyanogenMod/android_device_htc_hima-common" />
   <project path="device/htc/himaul" name="CyanogenMod/android_device_htc_himaul" />
   <project path="device/htc/himawl" name="CyanogenMod/android_device_htc_himawl" />
+  <project path="device/htc/himawhl" name="CyanogenMod/android_device_htc_himawhl" />
   <project path="device/htc/jewel" name="CyanogenMod/android_device_htc_jewel" />
   <project path="device/htc/m7" name="device_htc_m7" remote="vanir" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" />
