@@ -8,7 +8,7 @@ export remoterevision="cm-13.0"
 case $1 in
     angler)
         export remote="vanir"
-        export remoterevision="m6"
+        export remoterevision="n7"
         export kernelsource="kernel_huawei_angler"
     ;;
     armani)
