@@ -3,7 +3,7 @@
 
 ## all non-specified kernels are assumed to be from CyanogenMod
 export remote="cmold"
-export remoterevision="cm-13.0"
+export remoterevision="cm-14.0"
 
 case $1 in
     angler)
