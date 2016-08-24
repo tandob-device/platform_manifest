@@ -17,7 +17,7 @@ case $1 in
     ;;
     bacon)
         export remote="github"
-	export remoterevision="m6"
+	export remoterevision="n7"
         export kernelsource="ejjohnson1999/kernel_oneplus_msm8974"
     ;;
     bullhead)
