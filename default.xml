@@ -196,7 +196,6 @@
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
   <project path="external/gello-build" name="CyanogenMod/android_external_gello_build" />
   <project path="external/google" name="CyanogenMod/android_external_google" />
-  <project path="external/gmock" name="CyanogenMod/android_external_gmock"/>
   <project path="external/gson" name="CyanogenMod/android_external_gson" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/icu" name="external_icu" groups="pdk" remote="vanir" />
