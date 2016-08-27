@@ -144,13 +144,13 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />  
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" />
-  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" revision="cm-13.0" />
-  <project path="hardware/samsung_slsi-cm/exynos7420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420" revision="cm-13.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" />
+  <project path="hardware/samsung_slsi-cm/exynos7420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420" />
   <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" />
   <project path="hardware/sony/camera" name="CyanogenMod/android_hardware_sony_camera" />
   <project path="hardware/sony/macaddrsetup" name="hardware_sony_macaddrsetup" remote="vanir" />
   <project path="hardware/sony/thermanager" name="CyanogenMod/android_hardware_sony_thermanager" />
-  <project path="hardware/sony/timekeep" name="CyanogenMod/android_hardware_sony_timekeep" revision="cm-13.0" />
+  <project path="hardware/sony/timekeep" name="CyanogenMod/android_hardware_sony_timekeep" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="vanir" />
 
@@ -159,23 +159,23 @@
   <project path="abi/cpp" name="abi_cpp" groups="pdk" remote="vanir" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device_common" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
-  <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" revision="cm-13.0" />
+  <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="vanir" />
-  <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" revision="cm-13.0" />
+  <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/android/support-prebuilt" name="CyanogenMod/external_android_support-prebuilt" revision="master" />
   <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="cm-13.0" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" groups="pdk" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="cm-13.0" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
   <project path="external/chromium-webview" name="CyanogenMod/android_external_chromium-webview" clone-depth="1" />
   <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" />
@@ -191,15 +191,15 @@
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
   <project path="external/gello-build" name="CyanogenMod/android_external_gello_build" />
   <project path="external/google" name="CyanogenMod/android_external_google" />
-  <project path="external/gson" name="CyanogenMod/android_external_gson" revision="cm-13.0" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/icu" name="external_icu" groups="pdk" remote="vanir" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jarjar" name="CyanogenMod/android_external_jarjar" groups="pdk" />
-  <project path="external/json-c" name="CyanogenMod/android_external_json-c" revision="cm-13.0" />
+  <project path="external/json-c" name="CyanogenMod/android_external_json-c" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" revision="cm-13.0" />
+  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
   <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" />
@@ -209,10 +209,10 @@
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" revision="cm-13.0" />
+  <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
   <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
-  <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" revision="cm-13.0" />
+  <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" />
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" />
   <project path="external/lz4" name="CyanogenMod/android_external_lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
@@ -231,14 +231,14 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
-  <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" revision="cm-13.0" />
+  <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
-  <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" revision="cm-13.0" />
+  <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" />
   <project path="external/unrar" name="CyanogenMod/android_external_unrar" />
   <project path="external/unzip" name="CyanogenMod/android_external_unzip" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
@@ -261,38 +261,38 @@
   <project path="frameworks/opt/setupwizard" name="frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
-  <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" revision="cm-13.0" />
+  <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />
-  <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" revision="cm-13.0" />
+  <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
   <project path="hardware/intel/common/libva" name="CyanogenMod/android_hardware_intel_common_libva" groups="intel" />
   <project path="hardware/intel/common/libwsbm" name="CyanogenMod/android_hardware_intel_common_libwsbm" groups="intel" />
   <project path="hardware/intel/common/omx-components" name="CyanogenMod/android_hardware_intel_common_omx-components" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" revision="cm-13.0" />
-  <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" revision="cm-13.0" />
+  <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" />
+  <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <include name="snippets/hal_all.xml" />
-  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" revision="cm-13.0" />
+  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="cm-13.0" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libnativehelper" name="libnativehelper" groups="pdk" remote="vanir" />
-  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" revision="cm-13.0" />
-  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="cm-13.0" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" revision="cm-13.0" />
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="vanir" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
   <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
-  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" revision="cm-13.0" />
+  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vanir" />
-  <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" revision="cm-13.0" />
+  <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" />
-  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" revision="cm-13.0" />
-  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" revision="cm-13.0" />
-  <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" revision="cm-13.0" />
+  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
+  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" />
+  <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="vanir" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="vanir" />
-  <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" revision="cm-13.0" />
+  <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/providers/BookmarkProvider" name="CyanogenMod/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="packages/providers/CallLogProvider" name="CyanogenMod/android_packages_providers_CallLogProvider" groups="pdk-fs" />
@@ -301,26 +301,26 @@
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" groups="pdk-fs" />
   <project path="packages/providers/WeatherProvider" name="CyanogenMod/android_packages_providers_WeatherProvider" />
-  <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" revision="cm-13.0" />
+  <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" />
   <project path="packages/services/CMAudioService" name="CyanogenMod/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/LiveLockScreenService" name="CyanogenMod/android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
-  <project path="packages/services/ThemeManagerService" name="CyanogenMod/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" revision="cm-13.0" />
-  <project path="packages/services/WeatherService" name="CyanogenMod/android_packages_services_WeatherService" groups="pdk-cw-fs,pdk-fs" revision="cm-13.0" />
+  <project path="packages/services/ThemeManagerService" name="CyanogenMod/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/WeatherService" name="CyanogenMod/android_packages_services_WeatherService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/themes/HexoLibre" name="CyanogenMod/android_packages_themes_HexoLibre" groups="themes" />
 <!--  <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />-->
-  <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" revision="cm-13.0" />
+  <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="system_security" groups="pdk" remote="vanir" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" revision="cm-13.0" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
 
 <!-- CMSDK SAMPLES -->
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/igroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" revision="cm-13.0" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/igroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
 <!-- END CMSDK SAMPLES -->
 
