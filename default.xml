@@ -156,6 +156,8 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="vanir" />
   -->
 
+  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" />
 
 <!-- CM -->
   <project path="abi/cpp" name="abi_cpp" groups="pdk" remote="vanir" />
@@ -278,7 +280,6 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libnativehelper" name="libnativehelper" groups="pdk" remote="vanir" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
-  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="vanir" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
