@@ -128,6 +128,7 @@
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="device/xiaomi/armani" name="device_xiaomi_armani" remote="vanir" />
   <project path="device/xiaomi/cancro" name="device_xiaomi_cancro" remote="vanir" />
+  <project path="device/xiaomi/kenzo" name="CyanogenMod/android_device_xiaomi_kenzo" />
   <project path="device/yu/lettuce" name="device_yu_lettuce" remote="vanir" />
   <project path="device/yu/tomato" name="CyanogenMod/android_device_yu_tomato" />
 
