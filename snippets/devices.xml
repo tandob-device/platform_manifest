@@ -33,7 +33,7 @@
 <!--  <project path="device/huawei/kiwi" name="CyanogenMod/android_device_huawei_kiwi" />-->
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="vanir" />
 <!--  <project path="device/lge/d800" name="device_lge_d800" remote="vanir" />-->
-<!--  <project path="device/lge/d801" name="device_lge_d801" remote="vanir" />-->
+  <project path="device/lge/d801" name="device_lge_d801" remote="vanir" />
 <!--  <project path="device/lge/d802" name="device_lge_d802" remote="vanir" />-->
 <!--  <project path="device/lge/d803" name="device_lge_d803" remote="vanir" />-->
 <!--  <project path="device/lge/d850" name="CyanogenMod/android_device_lge_d850" />-->
@@ -42,7 +42,7 @@
 <!--  <project path="device/lge/d855" name="CyanogenMod/android_device_lge_d855" />-->
 <!--  <project path="device/lge/f320" name="device_lge_f320" remote="vanir" />-->
 <!--  <project path="device/lge/f400" name="device_lge_f400" remote="vanir" />-->
-<!--  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" />-->
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" />
 <!--  <project path="device/lge/g3-common" name="device_lge_g3-common" remote="vanir" />-->
 <!--  <project path="device/lge/g4-common" name="CyanogenMod/android_device_lge_g4-common" />-->
 <!--  <project path="device/lge/h811" name="CyanogenMod/android_device_lge_h811" />-->

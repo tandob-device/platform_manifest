@@ -30,7 +30,7 @@ case $1 in
     ;;
     d800|d801|d802|d803|f320|ls980|vs980)
         export remote="vanir"
-        export remoterevision="m6"
+        export remoterevision="n7"
         export kernelsource="kernel_lge_msm8974"
     ;;
     find5)
