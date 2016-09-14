@@ -17,6 +17,8 @@
   <remote name="cm"
           fetch="https://github.com/"
           review="review.cyanogenmod.com" />
+  <remote name="Riad-MTK"
+          fetch="https://github.com/Riad-MTK" />
   <remote name="github"
           fetch="https://github.com/" />
   <remote name="linaro"
@@ -53,7 +55,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="vanir"/>
   <project path="external/zlib" name="external_zlib" groups="pdk" remote="vanir" />
   <project path="frameworks/av" name="frameworks_av" remote="vanir" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="vanir" />
+  <project path="frameworks/base" name="Riad-MTK/frameworks_base" remote="github" />
   <project path="frameworks/native" name="frameworks_native" remote="vanir" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="vanir" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="vanir" />
@@ -71,7 +73,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vanir" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="vanir"/>
-  <project path="system/core" name="system_core" groups="pdk" remote="vanir" />
+  <project path="system/core" name="Riad-MTK/system_core" groups="pdk" remote="github" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="vanir" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="vanir"  />
   <project path="system/extras/su" name="system_extras_su" remote="vanir" />
