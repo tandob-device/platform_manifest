@@ -1,7 +1,7 @@
 Team Vanir's repo
 ===========
 
-This branch is for Vanir's M6 branch, our android-6.0.0 based ROM
+This branch is for Vanir's M6 for Mediatek branch,  android-6.0.0 based ROM
 
 Additional dependencies:
   automake autoconf optipng lzop
@@ -10,53 +10,19 @@ Additional dependencies:
 Getting Started
 ---------------
 
-Please see the [Android source page](http://source.android.com/source/index.html) for building instructions.
+
 
 To initialize your local repository using my trees, use the following command:
 
     repo init -u git://github.com/VanirAOSP/platform_manifest.git -b m6
 
-Mac Users: initialize your local repository using:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b m6 -g darwin
 
 Then to sync up:
 
     repo sync -j8
     
-Our gerrit:
 
-	http://gerrit.vanir.co:7070/#/q/status:open
 
-Our Community:
 
-	https://plus.google.com/communities/111378032131473754160
-
-Translations:
-
-[TUT] How to translate strings
-
-    http://pastebin.com/tV4rrvFV
-
-Vanir developer Resources:
-
-[TUT] initializing the build environment
-
-	http://pastebin.com/1DD9ZfQ4
-
-[TUT] capturing logcats
-	
-	http://pastebin.com/mqF7Ddz4
-
-[TUT] cherry-picking
-
-	http://pastebin.com/StEbCWEY
-	
-[TUT] basic git commands & examples of use
-
-	http://pastebin.com/rLaGw0zj
-	
-[TUT] submitting to gerrit for review
-
-	http://pastebin.com/7jPnM4mv
 
